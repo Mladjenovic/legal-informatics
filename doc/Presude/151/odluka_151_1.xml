@@ -1,0 +1,118 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2022-06-09/134-21!main"/>
+					<FRBRuri value="/akn/cg/judgment/2022-06-09/134-21"/>
+					<FRBRdate date="2022-06-09"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="134-21"/>                    
+					<FRBRname value="K 134/2021"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2022-06-09/134-21/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2022-06-09/134-21/cg@"/>
+					<FRBRdate date="2022-06-09"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2022-06-09/134-21/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2022-06-09/134-21/cg@/!main.akn"/>
+					<FRBRdate date="2022-06-09"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2022-06-09" showAs="Osnovni Sud u Beranama" number="K 134/2021"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Beranama"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Beranama"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="popovic" href="/akn/cg/ontology/person/judges/popovic" showAs="Dubravka Popović"/>
+				<TLCPerson eId="fatic" href="/akn/cg/ontology/person/fatic" showAs="Momirka Fatić"/>
+				<TLCPerson eId="hs" href="/akn/cg/ontology/person/hs" showAs="H.S."/>
+				<TLCPerson eId="dr" href="/akn/cg/ontology/person/mab" showAs="M.a B."/>
+				<TLCPerson eId="di" href="/akn/cg/ontology/person/sm" showAs="S. M."/>
+				<TLCPerson eId="em" href="/akn/cg/ontology/person/sn" showAs="S. N."/>
+				<TLCPerson eId="hb" href="/akn/cg/ontology/person/gp" showAs="G. P."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">K.br.134/21</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#os">Osnovni sud u Beranama</ref>, kao krivični, po sudiji <judge id="jud01" refersTo="#popovic">Dubravki Popović</judge>, uz sudjelovanje zapisničara 
+					<ref href="#fatic">Momirke Fatić</ref>, u krivičnom predmetu protiv okrivljenog <party id="p1" refersTo="#hs" as="#Defendant">H.S.a</party>, iz P., zbog <ref id="krivicni_zakonik_cg_kriv_cl_151_st_1" href="krivicni_zakonik_cg/krivicni_clan/151/st/1">krivičnog djela teška tjelesna povreda iz
+					čl.151.st.1. Krivičnog Zakonika Crne Gore</ref>, po optužnom predlogu <ref href="#odt">Osnovnog državnog tužilaštva u B.</ref> 
+					Kt.br..... od <date date="2021-09-05">05.09.2021</date>godine, nakon održanog glavnog i javnog pretresa u prisustvu državnog tužioca <party id="p2" refersTo="#mab" as="#Prosecutor">M.a B.</party>,
+					okrivljenog <party id="p1" refersTo="#hs" as="#Defendant">H.S.a</party> i njegovog branioca adv. <lawyer id="law1" refersTo="#sm">S. M.a</lawyer> iz B. i oštećenog <party id="p3" refersTo="#sn" as="#Plaintiff">S.N.a</party> i njegovog 
+					punomoćnika adv. <lawyer id="law2" refersTo="#gp">G. P.</lawyer>, donio je dana <date date="2022-06-09">09.06.2022 godine, a javno objavio dana <date date="2022-06-10">10.06.2022 godine,
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Okrivljeni: <party id="p1" refersTo="#hs" as="#Defendant">H.S.</party>JMB ... , od oca M. i majke E., rodjene K., rodjen ... 1993 godine, u R., sa prebivalištem u selu
+					T., opština P., državljanin Crne Gore, nezaposlen, neoženjen, pismen, sa završenom SSS, lošeg imovnog
+					stanja, neosuđivan.
+
+
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIV JE</p>
+				<p>
+					Što je:
+					dana  ......2021 godine, oko <time time="19:00:00">19,00</time> časova, na lokalnom putu u selu T., opština P., sposoban da shvati značaj
+					svoga djela i upravlja svojim postupcima i svjestan svoga djela čije je izvršenje htio i znajući da je isto
+					zabranjeno, teško tjelesno povrijedio oštećenog <party id="p3" refersTo="#sn" as="#Plaintiff"> S.N.a</party>, na način što ga je stisnutim šakama- pesnicama
+					više puta udarao u predjelu glave, usled čega je oštećeni <party id="p3" refersTo="#sn" as="#Plaintiff"> S.N.</party> pao na asfaltnu podlogu i tom prilikom mu
+					nanio teške tjelesne povrede u vidu nagnječenja u predjelu usana praćeno rasklaćenjem tri zuba, broj 13,
+					31 i 32, krvnog podliva i otoka u lijevoj polovini čeonog predjela, oguljotine u predjelu lijeve ušne školjke,
+					crvenila i otoka u predjelu brade, nagnječenja u predjelu nosa, nagnječenja u lijevom jagodičnom predjelu
+					i oguljotine u predjelu koljena i laktova.
+					
+					Čime je izvršio <ref id="krivicni_zakonik_cg_kriv_cl_151_st_1" href="krivicni_zakonik_cg/krivicni_clan/151/st/1">krivično djelo teška tjelesna povreda iz čl.151.st.1.Krivičnog Zakonika Crne Gore.</ref>
+					Pa ga sud za izvršeno krivično djelo na osnovu navedenog zakonskog propisa te primjenom čl.
+					<ref id="krivicni_zakonik_cg_kriv_cl_4_st_2" href="krivicni_zakonik_cg/krivicni_clan/4/st/2">4.st.2.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">32.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_36" href="krivicni_zakonik_cg/krivicni_clan/36">36.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_42" href="krivicni_zakonik_cg/krivicni_clan/42">42.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_45" href="krivicni_zakonik_cg/krivicni_clan/45">45.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_46" href="krivicni_zakonik_cg/krivicni_clan/46">46.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_51" href="krivicni_zakonik_cg/krivicni_clan/51">51.</ref> Krivičnog
+					Zakonika Crne Gore /KZCG/ i <ref id="zkp_kriv_cl_226_st_2" href="zkp/krivicni_clan/226/st/2">čl. 226. st.2.</ref> <ref id="zkp_kriv_cl_227" href="zkp/krivicni_clan/227">227.</ref> <ref id="zkp_kriv_cl_239_st_2" href="zkp/krivicni_clan/239/st/2">čl. 239. st.2.</ref> 
+					i <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">374.</ref> ZKP - a,
+				</p>
+				<p style="text-align: center;">O S U Đ U J E</p>
+				<p>
+					Na kaznu zatvora u trajanju od ..... / š.t / dana.
+				</p>
+				<p>
+					U izrečenu kaznu ima se uračunati vrijeme zadržavanja u trajanju od 72 časa, počev od .......2022 godine.
+				</p>
+				<p>
+					Okrivljeni se obavezuje da na ime troškova krivičnog postupka plati iznos od ....... €, i na ime paušala iznos
+					od 30,00 € u korist budžeta Crne Gore, na žiro račun br.907-83001-19 u roku od 15 dana po pravosnažnosti
+					presude a o troškovima oštećenog sud će odlučiti posebnim rešenjem.
+
+				</p>
+				<p>
+					Oštećeni <party id="p3" refersTo="#sn" as="#Plaintiff"> S.N. </party> se radi ostvarivanja imovinsko pravnog zahtjeva za naknadu štete upućuje na parnicu.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

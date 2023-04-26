@@ -1,0 +1,135 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2019-05-08/125-19!main"/>
+					<FRBRuri value="/akn/cg/judgment/2019-05-08/125-19"/>
+					<FRBRdate date="2019-05-08"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="125-19"/>                    
+					<FRBRname value="K 125/2019"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2019-05-08/125-19/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2019-05-08/125-19/cg@"/>
+					<FRBRdate date="2019-05-08"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2020-08-17/125-19/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2020-08-17/125-19/cg@/!main.akn"/>
+					<FRBRdate date="2019-05-08"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2019-05-08" showAs="Osnovni Sud u Podgorici" number="K 125/2019"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Podgorici"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Podgorici"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="cetkovic" href="/akn/cg/ontology/person/judges/cetkovic" showAs="Rade Ćetković"/>
+				<TLCPerson eId="kraja" href="/akn/cg/ontology/person/kraja" showAs="Edina Kraja"/>
+				<TLCPerson eId="lb" href="/akn/cg/ontology/person/lb" showAs="L.B."/>
+				<TLCPerson eId="mj" href="/akn/cg/ontology/person/mj" showAs="Milutin Jovanović"/>
+				<TLCPerson eId="hd" href="/akn/cg/ontology/person/hd" showAs="H.D."/>
+				<TLCPerson eId="mb" href="/akn/cg/ontology/person/mb" showAs="M.B."/>
+				<TLCPerson eId="mm" href="/akn/cg/ontology/person/mm" showAs="M.M."/>
+				<TLCPerson eId="ha" href="/akn/cg/ontology/person/ha" showAs="H.A."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">K.br.125/19</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#os">OSNOVNIOsnovni sud u Podgorici</ref>, sudija <judge id="jud01" refersTo="#cetkovic">Rade Ćetković</judge>, uz učešće zapisničarke <ref href="#kraja">Edine Kraje</ref>, u krivičnom postupku
+					protiv okrivljenih <party id="p2" refersTo="#lb" as="#Defendant">L. B.</party> zbog <ref id="krivicni_zakonik_cg_kriv_cl_151_st_1" href="krivicni_zakonik_cg/krivicni_clan/151/st/1">krivičnog djela teška tjelesna povreda iz čl. 151 st. 1 Krivičnog zakonika Crne</ref>
+					Gore i <party id="p2_1" refersTo="#M.J." as="#Defendant">M. J.</party> zbog <ref id="krivicni_zakonik_cg_kriv_cl_153" href="krivicni_zakonik_cg/krivicni_clan/153">krivičnog djela učestvovanje u tuči iz čl. 153 Krivičnog zakonika Crne Gore</ref>, nakon
+					pravosnažnosti rješenja o usvajanju sporazuma o priznanju krivice, dana <date date="2019-05-08">08.05.2019.</date> godine, donio je
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Okrivljeni:
+					1. <party id="p2" refersTo="#lb" as="#Defendant">L. B.</party>, JMB xxxxxxxxxxxxx, od oca K. i majke S., rođene H., rođen xx.xx.20xx. godine u Pg sa prebivalištem
+					u Pg - ul. A. P. br. xxx, državljanin Crne Gore, razumije crnogorski jezik, koji je i njegov jezik, nezaposlen,
+					neoženjen, bez djece, pismen, završio srednju školu, lošeg imovnog stanja, neosuđivan, protiv kojeg se ne
+					vodi postupak za drugo krivično djelo,
+					2. <party id="p2_1" refersTo="#M.J." as="#Defendant">M. J.</party>, JMB xxxxxxxxxxxxx, od oca P. i majke G., rođene G., rođen xx.xx.19xx. godine u Pg, sa prebivalištem
+					u Pg - ul. G. D. br. xx, državljanin Crne Gore, razumije crnogorski jezik, koji je i njegov jezik, mesar,
+					neoženjen, bez djece, pismen, završio srednju školu, lošeg imovnog stanja, neosuđivan, protiv kojeg se ne
+					vodi postupak za drugo krivično djelo,
+
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIVI SU</p>
+				<p>
+					Što su:
+				</p>
+				<p>
+					I
+				</p>
+				<p>
+					Okrivljeni <party id="p2" refersTo="#lb" as="#Defendant">L. B.</party>:
+					Dana <date date="2019-01-01">01. januara 2019.</date> godine oko <time time="20:30:00">20:30</time> časova u Pg, u ul. A. M. br. 62, u UO "T. P.", svjestan svog djela čije
+					izvršenje je htio i znajući da je njegovo djelo zabranjeno, drugog teško tjelesno povrijedio, na način što je
+					oštećenog <party id="p1" refersTo="#hd" as="#Prosecutor">H. D.</party> više puta udario pesnicama i nogom u predjelu glave i tijela, nanoseći mu tešku tjelesnu
+					povredu u vidu preloma desne jagodične kosti, sa krvnim podlivom i otokom desnog oka u desnom
+					jagodičnom predjelu i u predjelu kapaka desnog oka i krvnog podliva vežnjače desnog oka,
+					- čime je izvršio <ref id="krivicni_zakonik_cg_kriv_cl_151_st_1" href="krivicni_zakonik_cg/krivicni_clan/151/st/1">krivično djelo teška tjelesna povreda iz čl. 151 st. 1 Krivičnog zakonika Crne Gore</ref>,
+					Pa ga sud zbog navedenog krivičnog djela primjenom <ref id="krivicni_zakonik_cg_kriv_cl_4_st_2" href="krivicni_zakonik_cg/krivicni_clan/4/st/2">čl. 4 st. 2</ref>, 
+					<ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">čl. 32</ref>, 
+					<ref id="krivicni_zakonik_cg_kriv_cl_41" href="krivicni_zakonik_cg/krivicni_clan/41">čl. 41</ref> i 
+					<ref id="krivicni_zakonik_cg_kriv_cl_42/st/1" href="krivicni_zakonik_cg/krivicni_clan/42/st/1">čl. 42 st. 1</ref> Krivičnog zakonika
+					Crne Gore i <ref id="zkp_kriv_cl_226" href="zkp/krivicni_clan/226">čl. 226, <ref id="zkp_kriv_cl_229" href="zkp/krivicni_clan/229">čl. 229</ref> i <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">čl. 374</ref> Zakonika o krivičnom postupku,
+				</p>
+				<p style="text-align: center;">OSUĐUJE</p>
+				<p>
+					Na kaznu rad u javnom interesu u trajanju od 120 (sto dvadeset) časova, a koja kazna će se izvršiti za
+					vrijeme od 6 mjeseci, s tim što ne može biti duža od 60 časova u toku 1 mjeseca.
+					Ukoliko okrivljeni ne bude vršio rad u javnom interesu, ova kazna će se zamijeniti kaznom zatvora, tako
+					što će se svakih započetih 60 časova rada u javnom interesu, zamijeniti kaznom zatvora u trajanju od 1
+					mjeseca.
+				</p>
+				<p>
+					II
+				</p>
+				<p>
+					Okrivljeni <party id="p2_1" refersTo="#M.J." as="#Defendant">M. J.</party>:
+					Dana <date date="2019-01-01">01. januara 2019.</ref> godine oko <time time="20:30:00">20:30 časova</ref> u Pg, u ul. A. M. br. xx, u UO "T. P.", svjestan svog djela čije
+					izvršenje je htio i znajući da je njegovo djelo zabranjeno, učestvovao u tuči u kojoj je drugom nanijeta
+					teška tjelesna povreda, na način što se uključio u tuču do koje je prethodno došlo između <party id="p2" refersTo="#lb" as="#Defendant">B. L.</party> i <party id="p1" refersTo="#hd" as="#Prosecutor">H. D.</party>, pri
+					čemu su na strani <party id="p1" refersTo="#hd" as="#Prosecutor">H. D.</part> u tuči učestvovali <party id="p1" refersTo="#hd" as="#Prosecutor">H. D.</party>, <ref href="#mb"> M. B.</ref>, <ref href="#mm">M. M.</ref> i <ref href="#kraja">H. A.</href> a na strani <party id="p2" refersTo="#lb" as="#Defendant">B. L.</party>, okrivljeni <party id="p2_1" refersTo="#M.J." as="#Defendant">J. M.</party> i jedno za
+					sada neidentifikovano lice, kada su međusobno razmjenjivali udarce, u kojoj tuči je oštećenom <party id="p1" refersTo="#hd" as="#Prosecutor">H. D.</party>
+					nanijeta teška tjelesna povreda u vidu preloma desne jagodične kosti, sa krvnim podlivom i tokom desnog
+					oka u desnom jagodičnom predjelu i u predjelu kapaka desnog oka i krvnog podliva vežnjače desnog oka,
+					- čime je izvršio <ref id="krivicni_zakonik_cg_kriv_cl_153" href="krivicni_zakonik_cg/krivicni_clan/153">krivično djelo učestvovanje u tuči iz čl. 153 Krivičnog zakonika Crne Gore</ref>.
+					Pa sud okrivljenom <party id="p2_1" refersTo="#M.J." as="#Defendant">Milutinu Jovanoviću</party> za navedeno krivično djelo primjenom <ref id="krivicni_zakonik_cg_kriv_cl_4_st_2" href="krivicni_zakonik_cg/krivicni_clan/4/st/2">čl. 4 st. 2</ref>, <ref id="krivicni_zakonik_cg_kriv_cl_42/st/1" href="krivicni_zakonik_cg/krivicni_clan/42/st/1">čl. 42 st. 1</ref>, <ref id="krivicni_zakonik_cg_kriv_cl_52_st_2" href="krivicni_zakonik_cg/krivicni_clan/52/st/2">čl. 52
+					st. 2</ref>,<ref id="krivicni_zakonik_cg_kriv_cl_53" href="krivicni_zakonik_cg/krivicni_clan/53"> čl. 53</ref> i <ref id="krivicni_zakonik_cg_kriv_cl_54" href="krivicni_zakonik_cg/krivicni_clan/54">čl. 54</ref> Krivičnog zakonika Crne Gore, te <ref id="zkp_kriv_cl_226" href="zkp/krivicni_clan/226">čl. 226</ref>,<ref id="zkp_kriv_cl_229" href="zkp/krivicni_clan/229"> čl. 229</ref> i <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">čl. 374</ref> Zakonika o krivičnom postupku,
+					izriče
+				</p>
+				<p style="text-align: center;">USLOVNU OSUDU</p>
+				<p>
+					Kojom mu utvrđuje kaznu zatvora u trajanju od 3 (tri) mjeseca i istovremeno određuje da se ona neće
+					izvršiti, ako okrivljeni u roku od 1 (jedne) godine po pravosnažnosti presude ne učini novo krivično djelo.
+					Obavezuju se oba okrivljena da plate na ime troškova krivičnog postupka iznos od po 40,08 €, u roku od 15
+					dana po pravosnažnosti presude, pod prijetnjom izvršenja.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

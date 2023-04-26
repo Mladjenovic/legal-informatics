@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+     <!ENTITY defeasible "http://lpis.csd.auth.gr/systems/dr-device/defeasible.rdfs#">
+     <!ENTITY export "http://startrek.csd.auth.gr/dr-device/export/export.rdf#"> 
+     <!ENTITY proof-export "http://startrek.csd.auth.gr/dr-device/proof/proof.ruleml#"> 
+]>
+
+<rdf:RDF
+     xmlns:rdf='&rdf;'
+     xmlns:rdfs='&rdfs;'
+     xmlns:defeasible='&defeasible;'
+     xmlns:export='&export;'
+>
+
+<rdfs:Class rdf:about='&export;zk_145_ubistvo_na_mah'>
+     <rdfs:label rdf:resource='zk_145_ubistvo_na_mah'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_153_ucestvovanje_u_tuci'>
+     <rdfs:label rdf:resource='zk_153_ucestvovanje_u_tuci'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_154_ugrozavanjem_opasnim_orudjem_pri_tuci_i_svadji'>
+     <rdfs:label rdf:resource='zk_154_ugrozavanjem_opasnim_orudjem_pri_tuci_i_svadji'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_152_laka_tjelesna_povreda'>
+     <rdfs:label rdf:resource='zk_152_laka_tjelesna_povreda'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_152_laka_tjelesna_povreda_sa_oruzjem_orudjem'>
+     <rdfs:label rdf:resource='zk_152_laka_tjelesna_povreda_sa_oruzjem_orudjem'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_152_opomena_laka_tjelesna_povreda_sa_oruzjem_orudjem'>
+     <rdfs:label rdf:resource='zk_152_opomena_laka_tjelesna_povreda_sa_oruzjem_orudjem'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_152_laka_tjelesna_povreda_gonjenje_po_privatnoj_tuzbi'>
+     <rdfs:label rdf:resource='zk_152_laka_tjelesna_povreda_gonjenje_po_privatnoj_tuzbi'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_151_teska_tjelesna_povreda'>
+     <rdfs:label rdf:resource='zk_151_teska_tjelesna_povreda'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_151_teska_tjelesna_povreda_naneta_teska_doveden_zivot_u_opasnost_ili_naneta_trajna_nesposobnost'>
+     <rdfs:label rdf:resource='zk_151_teska_tjelesna_povreda_naneta_teska_doveden_zivot_u_opasnost_ili_naneta_trajna_nesposobnost'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_151_teska_tjelesna_povreda_i_nastupila_smrt'>
+     <rdfs:label rdf:resource='zk_151_teska_tjelesna_povreda_i_nastupila_smrt'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_151_teska_telesna_povreda_ili_zdravlje_narusi_iz_nehata'>
+     <rdfs:label rdf:resource='zk_151_teska_telesna_povreda_ili_zdravlje_narusi_iz_nehata'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_151_tesko_telesno_povrijedi_ili_mu_zdravlje_narusi_ucinjeno_na_mah_doveden_u_razdrazenost_bez_svoje_krivice'>
+     <rdfs:label rdf:resource='zk_151_tesko_telesno_povrijedi_ili_mu_zdravlje_narusi_ucinjeno_na_mah_doveden_u_razdrazenost_bez_svoje_krivice'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_151_teska_telesna_povreda_ili_zdravlje_tesko_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_na_mah_doveden_u_razdrazenost_bez_svoje_krivice'>
+     <rdfs:label rdf:resource='zk_151_teska_telesna_povreda_ili_zdravlje_tesko_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_na_mah_doveden_u_razdrazenost_bez_svoje_krivice'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_151_teska_telesna_povreda_i_nastupila_smrt_doveden_u_razdrazenost_bez_svoje_krivice'>
+     <rdfs:label rdf:resource='zk_151_teska_telesna_povreda_i_nastupila_smrt_doveden_u_razdrazenost_bez_svoje_krivice'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_151a_sakacenje_zenskih_genitalija'>
+     <rdfs:label rdf:resource='zk_151a_sakacenje_zenskih_genitalija'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;zk_151b_prinudna_sterilizacija'>
+     <rdfs:label rdf:resource='zk_151b_prinudna_sterilizacija'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;min_years_in_imprisonment'>
+     <rdfs:label rdf:resource='min_years_in_imprisonment'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;max_years_in_imprisonment'>
+     <rdfs:label rdf:resource='max_years_in_imprisonment'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;min_months_in_imprisonment'>
+     <rdfs:label rdf:resource='min_months_in_imprisonment'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;months_in_imprisonment'>
+     <rdfs:label rdf:resource='months_in_imprisonment'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;years_in_imprisonment'>
+     <rdfs:label rdf:resource='years_in_imprisonment'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;novcana_kazna'>
+     <rdfs:label rdf:resource='novcana_kazna'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;izrecena_opomena'>
+     <rdfs:label rdf:resource='izrecena_opomena'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;gonjenje_po_privatnoj_tuzbi'>
+     <rdfs:label rdf:resource='gonjenje_po_privatnoj_tuzbi'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_145_ubistvo_na_mah'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_153_ucestvovanje_u_tuci'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_154_ugrozavanjem_opasnim_orudjem_pri_tuci_i_svadji'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_152_laka_tjelesna_povreda'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_152_laka_tjelesna_povreda_sa_oruzjem_orudjem'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_152_opomena_laka_tjelesna_povreda_sa_oruzjem_orudjem'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_152_laka_tjelesna_povreda_gonjenje_po_privatnoj_tuzbi'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_151_teska_tjelesna_povreda'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_151_teska_tjelesna_povreda_naneta_teska_doveden_zivot_u_opasnost_ili_naneta_trajna_nesposobnost'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_151_teska_tjelesna_povreda_i_nastupila_smrt'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_151_teska_telesna_povreda_ili_zdravlje_narusi_iz_nehata'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_151_tesko_telesno_povrijedi_ili_mu_zdravlje_narusi_ucinjeno_na_mah_doveden_u_razdrazenost_bez_svoje_krivice'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_151_teska_telesna_povreda_ili_zdravlje_tesko_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_na_mah_doveden_u_razdrazenost_bez_svoje_krivice'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_151_teska_telesna_povreda_i_nastupila_smrt_doveden_u_razdrazenost_bez_svoje_krivice'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_151a_sakacenje_zenskih_genitalija'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;defendant'>
+     <rdfs:domain rdf:resource='&export;zk_151b_prinudna_sterilizacija'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;value'>
+     <rdfs:domain rdf:resource='&export;min_years_in_imprisonment'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;value'>
+     <rdfs:domain rdf:resource='&export;max_years_in_imprisonment'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;value'>
+     <rdfs:domain rdf:resource='&export;min_months_in_imprisonment'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;value'>
+     <rdfs:domain rdf:resource='&export;months_in_imprisonment'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;value'>
+     <rdfs:domain rdf:resource='&export;years_in_imprisonment'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;value'>
+     <rdfs:domain rdf:resource='&export;novcana_kazna'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;value'>
+     <rdfs:domain rdf:resource='&export;izrecena_opomena'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;value'>
+     <rdfs:domain rdf:resource='&export;gonjenje_po_privatnoj_tuzbi'/>
+</rdf:Property>
+
+<export:zk_145_ubistvo_na_mah rdf:about='&export;zk_145_ubistvo_na_mah1'>
+     <export:defendant>Cvele</export:defendant>
+     <defeasible:truthStatus>defeasibly-proven-negative</defeasible:truthStatus>
+     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof1</defeasible:proof>
+</export:zk_145_ubistvo_na_mah>
+
+<export:zk_153_ucestvovanje_u_tuci rdf:about='&export;zk_153_ucestvovanje_u_tuci1'>
+     <export:defendant>Cvele</export:defendant>
+     <defeasible:truthStatus>defeasibly-proven-negative</defeasible:truthStatus>
+     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof2</defeasible:proof>
+</export:zk_153_ucestvovanje_u_tuci>
+
+<export:zk_154_ugrozavanjem_opasnim_orudjem_pri_tuci_i_svadji rdf:about='&export;zk_154_ugrozavanjem_opasnim_orudjem_pri_tuci_i_svadji1'>
+     <export:defendant>Cvele</export:defendant>
+     <defeasible:truthStatus>defeasibly-proven-negative</defeasible:truthStatus>
+     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof3</defeasible:proof>
+</export:zk_154_ugrozavanjem_opasnim_orudjem_pri_tuci_i_svadji>
+
+<export:zk_152_laka_tjelesna_povreda rdf:about='&export;zk_152_laka_tjelesna_povreda1'>
+     <export:defendant>Cvele</export:defendant>
+     <defeasible:truthStatus>defeasibly-proven-negative</defeasible:truthStatus>
+     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof4</defeasible:proof>
+</export:zk_152_laka_tjelesna_povreda>
+
+<export:zk_152_laka_tjelesna_povreda_sa_oruzjem_orudjem rdf:about='&export;zk_152_laka_tjelesna_povreda_sa_oruzjem_orudjem1'>
+     <export:defendant>Cvele</export:defendant>
+     <defeasible:truthStatus>defeasibly-proven-negative</defeasible:truthStatus>
+     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof5</defeasible:proof>
+</export:zk_152_laka_tjelesna_povreda_sa_oruzjem_orudjem>
+
+<export:zk_151_teska_tjelesna_povreda rdf:about='&export;zk_151_teska_tjelesna_povreda1'>
+     <export:defendant>Cvele</export:defendant>
+     <defeasible:truthStatus>defeasibly-proven-negative</defeasible:truthStatus>
+     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof6</defeasible:proof>
+</export:zk_151_teska_tjelesna_povreda>
+
+<export:zk_151_teska_tjelesna_povreda_naneta_teska_doveden_zivot_u_opasnost_ili_naneta_trajna_nesposobnost rdf:about='&export;zk_151_teska_tjelesna_povreda_naneta_teska_doveden_zivot_u_opasnost_ili_naneta_trajna_nesposobnost1'>
+     <export:defendant>Cvele</export:defendant>
+     <defeasible:truthStatus>defeasibly-proven-negative</defeasible:truthStatus>
+     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof7</defeasible:proof>
+</export:zk_151_teska_tjelesna_povreda_naneta_teska_doveden_zivot_u_opasnost_ili_naneta_trajna_nesposobnost>
+
+<export:zk_151b_prinudna_sterilizacija rdf:about='&export;zk_151b_prinudna_sterilizacija1'>
+     <export:defendant>Cvele</export:defendant>
+     <defeasible:truthStatus>defeasibly-proven-positive</defeasible:truthStatus>
+     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof8</defeasible:proof>
+</export:zk_151b_prinudna_sterilizacija>
+
+<export:max_years_in_imprisonment rdf:about='&export;max_years_in_imprisonment1'>
+     <export:value>5</export:value>
+     <defeasible:truthStatus>defeasibly-proven-positive</defeasible:truthStatus>
+     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof9</defeasible:proof>
+</export:max_years_in_imprisonment>
+
+<export:min_months_in_imprisonment rdf:about='&export;min_months_in_imprisonment1'>
+     <export:value>3</export:value>
+     <defeasible:truthStatus>defeasibly-proven-positive</defeasible:truthStatus>
+     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof10</defeasible:proof>
+</export:min_months_in_imprisonment>
+
+</rdf:RDF>

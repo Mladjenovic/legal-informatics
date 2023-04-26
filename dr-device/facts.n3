@@ -1,0 +1,17 @@
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#case> .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#name> "case 01" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#defendant> "Cvele" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#prinudna_sterilizacija> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#sakacenje_zenskih_genitalija> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#ucini_na_mah_doveden_u_razdrazenost_bez_svoje_krivice> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#teska_telesna_povreda_ili_zdravlje_narusi_iz_nehata> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#teska_telesna_povreda_i_nastupila_smrt> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#tesko_telesno_povredi_ili_mu_zdravlje_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_ili_unisten_ili_ostecen_trajno_deo_tela_naneta_trajna_nesposonost> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#tesko_telesno_povrijedi_ili_mu_zdravlje_narusi> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#gonjenje_se_preduzima_po_privatnoj_tuzbi> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#ucinilac_bio_izazvan_nepristojnim_ili_grubim_ponasanjem_ostecenog> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#oruzjem_orudjem_lako_telesno_povrijedi_ili_mu_zdravlje_narusi> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#lako_telesno_povrijedi_ili_mu_zdravlje_narusi> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#pri_svadji_se_masi_oruzja_podobnog_da_tijelo_tesko_povredi> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#ubistvo_na_mah> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#neko_lisen_zivota_ili_nanesena_teska_telesna_povreda> "no" .

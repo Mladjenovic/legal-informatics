@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/saxon-he-11-4/lib/xmlresolver-4.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/saxon-he-11-4/lib/jline-2.14.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/saxon-he-11-4/lib/xmlresolver-4.4.3-data.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

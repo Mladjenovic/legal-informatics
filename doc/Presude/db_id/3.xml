@@ -1,0 +1,121 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2020-04-27/28-2020!main"/>
+					<FRBRuri value="/akn/cg/judgment/2020-04-27/28-2020"/>
+					<FRBRdate date="2020-04-27"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="28-20"/>                    
+					<FRBRname value="K 136/2013"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2020-04-27/28-2020/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2020-04-27/28-2020/cg@"/>
+					<FRBRdate date="2020-04-27"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2020-04-27/28-2020/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2020-04-27/28-2020/cg@/!main.akn"/>
+					<FRBRdate date="2020-04-27"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="vs" date="2020-04-27" showAs="Visi Sud u Podgorici" number="K.br.28/20"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="vs" href="/akn/cg/ontology/organization/vs" showAs="Visi Sud u Podgorici"/>
+				<TLCOrganization eId="vdt" href="/akn/cg/ontology/organization/vdt" showAs="Vise državno tužilaštvo u Podgorici"/>
+				<TLCOrganization eId="vrdt" href="/akn/cg/ontology/organization/vrdt" showAs="Vrhovno državno tužilaštva Crne Gore"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="mostrokol" href="/akn/cg/ontology/person/judges/mostrokol" showAs="Vesna Moštrokol"/>
+				<TLCPerson eId="rakovic" href="/akn/cg/ontology/person/rakovic" showAs="Anka Raković"/>
+				<TLCPerson eId="zd" href="/akn/cg/ontology/person/zd" showAs="Z.D."/>
+				<TLCPerson eId="mb" href="/akn/cg/ontology/person/mb" showAs="M.B."/>
+				<TLCPerson eId="soskic" href="/akn/cg/ontology/person/soskic" showAs="Šoškić Miloš"/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">K.br.28/2020</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#vs">VIŠI SUD U PODGORICI</ref>, kao prvostepeni krivični po sudiji <judge id="jud01" refersTo="#mostrokol">Vesni Moštrokol</judge>, kao pojedincu, uz učešće
+					namještenika <ref href="#rakovic">Anke Raković</ref>, kao zapisničara, u predmetu protiv optužene <party id="p2" refersTo="#zd" as="#Defendant">Z.D.</party>iz K., koju brani <lawyer id="lo1" referseTo="mb">M. B.</lawyer>,
+					advokat iz P., zbog <ref id="krivicni_zakonik_cg_kriv_cl_145" href="krivicni_zakonik_cg/krivicni_clan/145">krivičnog djela ubistvo na mah iz čl. 145 Krivičnog zakonika Crne Gore</ref>, po optužnici
+					<ref href="#vdt">Višeg državnog tužioca u Podgorici</ref> <ref id="pres_kt_br_188/19" href="/presude/2020-02-14/Kt-br-188-19">Kt.br.188/19</ref> od <date date="2020-02-14">14.02.2020.</date> godine, koju je na ročištu povodom
+					odlučivanja o sporazumu o priznanju krivice zastupao <lawyer id="lo1" referseTo="soskic">Šoškić Miloš</lawyer>, Državni tužilac u <ref href="#vdt">VDT-a</ref> u Podgorici,
+					nakon donešenog rješenja o usvajanju sporazuma o priznanju krivice, dana <date date="2020-04-27">27.04.2020.</date> godine, donio je
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Optužena:
+				</p>
+				<p>
+					<party id="p2" refersTo="#zd" as="#Defendant">Z.D.</party>, od oca H. i majke S., rođene A., rođene ...godine u A.K., sa prebivalištem u A.-Ul B. br.., državljanka K.,
+					maternji jezik ruski, ekonomista, penzionerka, majka jednog djeteta, završila ekonomski fakultet, srednjeg
+					imovnog stanja, neosuđivana, u pritvoru od <date date="2019-09-15">15.09.2019.</date>godine od <time time="23:30:00">23,30</time> časova.
+
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIVA JE</p>
+				<p>
+					Zato što je:
+				</p>
+				<p>
+					Dana ....godine, oko <time time="17:00:00">17,00</time> časova, u B., u naselju B. br.., sa umišljajem lišila života oštećenog <party id="p1" refersTo="#si" as="#Prosecutor">Š.I.</party> na mah
+					dovedena bez svoje krivice u jaku razdraženost napadom od strane oštećenog, na način što je oštećenom,
+					koji joj je zadao više udaraca i nanio joj lake tjelesne povrede u vidu nagnječenja ispod lijevog oka, krvnog
+					podliva ispod desne ušne školjke, krvnog podliva u desnom sljepoočnom predjelu gornjeg pola desne
+					ušne školjke, krvnog podliva u desnoj polovini tjemenog predjela, ogrebotine u predjelu desne bočne
+					strane vrata, dvije ogrebotine u predjelu lijeve bočne strane vrata, krvnog podliva u predjelu unutrašnje
+					strane srednje trećine lijeve podlaktice, tri krvna podliva u predjelu spoljašnje strane lijevog ramena,
+					prednje i spoljašnje strane lijeve nadlaktice, krvnog podliva u predjelu dlanene strane desne podlaktice i
+					krvnog podliva u predjelu dlanene strane korijena drogog prsta desne šake, zbog kojeg napada je
+					dovedena u jaku razdraženost, zadala četiri uboda nožem nanoseći mu teške tjelesne povrede u vidu
+					ubodno reznih rana u središnjem grudnom predjelu, u želudačnom predjelu, u predjelu desnog gornjeg
+					kvadranta prednje strane trbuha i u predjelu desnog donjeg kvadrantna prednje strane trbuha, od kojih
+					povreda je usljed iskrvarenja iz povreda pluća, veza crijeva i raskidanih krvnih sudova nastupila njegova
+					smrt, iako je bila svjesna da zadavanjem uboda u vitalni dio tijela oštećenog može lištiti života, pa je to i
+					htjela,
+					- čime je izvršila krivično djelo – <ref id="krivicni_zakonik_cg_kriv_cl_145" href="krivicni_zakonik_cg/krivicni_clan/145">ubistvo na mah iz člana 145 Krivičnog zakonika Crne Gore</ref>.
+					Pa je sud primjenom citiranih zakonskih odredbi, te odredbi čl. <ref id="krivicni_zakonik_cg_kriv_cl_4" href="krivicni_zakonik_cg/krivicni_clan/4">4</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_5" href="krivicni_zakonik_cg/krivicni_clan/5">5</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_13" href="krivicni_zakonik_cg/krivicni_clan/13">13</ref>, 
+					<ref id="krivicni_zakonik_cg_kriv_cl_14" href="krivicni_zakonik_cg/krivicni_clan/14">14</ref>, 
+					<ref id="krivicni_zakonik_cg_kriv_cl_15" href="krivicni_zakonik_cg/krivicni_clan/15">15</ref>, 
+					<ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">32</ref>, 
+					<ref id="krivicni_zakonik_cg_kriv_cl_36" href="krivicni_zakonik_cg/krivicni_clan/36">36</ref>, 
+					<ref id="krivicni_zakonik_cg_kriv_cl_42" href="krivicni_zakonik_cg/krivicni_clan/42">42</ref> i 
+					<ref id="krivicni_zakonik_cg_kriv_cl_51" href="krivicni_zakonik_cg/krivicni_clan/51">51</ref> Krivičnog
+					zakonika Crne Gore, te odredbi čl. <ref id="zkp_kriv_cl_226" href="zkp/krivicni_clan/226">226</ref>, <ref id="zkp_kriv_cl_229" href="zkp/krivicni_clan/229">229</ref>,
+					<ref id="zkp_kriv_cl_303" href="zkp/krivicni_clan/303">303</ref> i <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">374</ref> Zakonika o krivičnom postupku.
+				</p>
+				<p style="text-align: center;">OSUDJUJE</p>
+				<p>
+					Na kaznu zatvora u trajanju od 4 (četiri) godine, u koju kaznu će joj se uračunati vrijeme provedeno u
+					pritvoru od <date date="2019-09-15">15.09.2019.</date> godine od <time time="23:30:00">23,30</time> časova, pa nadalje.
+					OBAVEZUJE SE optužena da na ime troškova krivičnog postupka, Budžetu CG uplati iznos od 2.111,25 eura
+					(dvijehiljadestojedanaest eura i dvadesetpet centi), a na ime paušala iznose od po 50,00 € (pedeset eura)
+					na račun <ref href="#vrdt">Vrhovnog državnog tužilaštva Crne Gore</ref>, i <ref href="#vdt">Višem sudu u Podgorici</ref> na račun Budžeta CG, sve u
+					roku od 15 dana po pravosnažnosti presude pod prijetnjom prinudnog izvršenja
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

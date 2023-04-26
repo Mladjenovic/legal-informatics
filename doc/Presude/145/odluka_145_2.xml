@@ -1,0 +1,143 @@
+<!--konobar sa nozem -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2020-06-28/37-20!main"/>
+					<FRBRuri value="/akn/cg/judgment/2020-06-28/37-20"/>
+					<FRBRdate date="2020-06-28"/>
+					<FRBRauthor href="#vs" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="37-20"/>                    
+					<FRBRname value="K 37/2020"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2020-06-28/37-20/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2020-06-28/37-20/cg@"/>
+					<FRBRdate date="2020-06-28"/>
+					<FRBRauthor href="#vs" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2020-06-28/37-20/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2020-06-28/37-20/cg@/!main.akn"/>
+					<FRBRdate date="2020-06-28"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="vs" date="2020-06-28" showAs="Viši Sud u Podgorici" number="K 37/2020"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="vs" href="/akn/cg/ontology/organization/vs" showAs="Viši Sud u Podgorici"/>
+				<TLCOrganization eId="osn" href="/akn/cg/ontology/organization/osn" showAs="Osnovni sud u Nikšiću"/>
+				<TLCOrganization eId="osk" href="/akn/cg/ontology/organization/osk" showAs="Osnovni sud u Kotoru"/>
+				<TLCOrganization eId="vdt" href="/akn/cg/ontology/organization/vdt" showAs="Više državno tužilaštvo"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="tabas" href="/akn/cg/ontology/person/judges/tabas" showAs="Tabaš Predrag"/>
+				<TLCPerson eId="novicic" href="/akn/cg/ontology/person/judges/novicic" showAs="Novčić Slobodanka"/>
+				<TLCPerson eId="begovic" href="/akn/cg/ontology/person/judges/begovic" showAs="Begović Tatjana"/>
+				<TLCPerson eId="pm" href="/akn/cg/ontology/person/pm" showAs="P.M."/>
+				<TLCPerson eId="sj" href="/akn/cg/ontology/person/sj" showAs="S.J."/>
+				<TLCPerson eId="md" href="/akn/cg/ontology/person/md" showAs="M.D."/>
+				<TLCPerson eId="kn" href="/akn/cg/ontology/person/kn" showAs="K.N."/>
+				<TLCPerson eId="rn" href="/akn/cg/ontology/person/rn" showAs="dr R.N."/>
+				<TLCPerson eId="ms" href="/akn/cg/ontology/person/ms" showAs="dr. M.S."/>
+				<TLCPerson eId="gz" href="/akn/cg/ontology/person/gz" showAs="dr. G.Ž."/>
+				<TLCPerson eId="sib" href="/akn/cg/ontology/person/sib" showAs="S.I.B."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">K.br.37/20</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#vs"> VIŠI SUD U PODGORICI </ref>, kao prvostepeni krivični po predsjedniku vijeća - sudiji <judge id="jud01" refersTo="#tabas">Tabaš Predragu</judge>,
+					uz učešće namještenika <ref href="#novicic">Novčić Slobodanke</ref> kao zapisničara, u predmetu protiv optuženog <party id="p2" refersTo="#pm" as="#Defendant">P.M.</party>,
+					koga po službenoj dužnosti brani <lawyer id="lo1" referseTo="sj">S.J.</lawyer>, advokat iz Podgorice, 
+					zbog <ref id="krivicni_zakonik_cg_kriv_cl_145" href="krivicni_zakonik_cg/krivicni_clan/145">krivičnog djela ubistvo na mah u pokušaju iz čl. 145. u vezi
+					čl. 20. Krivičnog zakonika Crne Gore</ref>, po optužnici <party id="p1" refersTo="#vdt" as="#Prosecutor">Višeg državnog tužilaštva</party> u Podgorici 
+					<ref id="pres_kt_br_54/19" href="/presude/2020-03-03/Kt-br-54-19">Kt.br. 54/19</ref> od
+					<date date="2020-03-03">03.03.2020.</date> godine, koju je na ročištu povodom odlučivanja o sporazumu o priznanju krivice zastupala
+					<party id="p1_1" refersTo="#begovic" as="#Prosecutor">Begović Tatjana</party> - državna tužiteljka u <party id="p1" refersTo="#vdt" as="#Prosecutor">Višem državnom tužilaštvu</party>
+					u Podgorici, nakon pravosnažnosti rješenja o usvajanju sporazuma o priznanju krivice, dana <date date="2020-07-28">28.07.2020.</date>godine, donio je
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Optuženi:
+					<party id="p2" refersTo="#pm" as="#Defendant">P.M.</party>, zv. "M.", JMB ..., od oca M. i majke A., rođene B., rođen .... godine u N..., sa prebivalištem u B... - M... ...,
+					privatno živi kod stanodavca K.S. iz C..., državljanin Crne Gore, završio gimnaziju, konobar, nezaposlen,
+					živi u vanbračnoj zajednici, bez djece, lošeg imovnog stanja, osuđivan i to: presudom <ref href="#vs">Višeg suda u
+					Podgorici</ref> <ref id="pres_k_br_96/06" href="/presude/2007-01-17/K-br-96-06">K.br. 96/2006</ref> od <date date="2007-01-17">17.01.2007.</date> godine,
+					zbog <ref id="krivicni_zakonik_cg_kriv_cl_300/st/2/st/1" href="krivicni_zakonik_cg/krivicni_clan/300/st/2/st/1">krivičnog djela neovlašćena proizvodnja, držanje i
+					stavljanje u promet opojnih droga iz čl. 300. st.2. u vezi st.1. KZCG</ref> i osuđen na kaznu zatvora u trajanju od
+					2 (dvije) godine, presudom <ref href="#osn">Osnovnog suda u Nikšiću</ref> <ref id="pres_k_br_331/09" href="/presude/2009-05-12/K-br-331-09">K.br. 331/09</ref> od <date date="2009-12-05">05.12.2009.</date>godine,
+					zbog <ref id="krivicni_zakonik_cg_kriv_cl_403/st/1" href="krivicni_zakonik_cg/krivicni_clan/403/st/1">krivičnog djela nedozvoljeno držanje oružja i eksplozivnih materija iz čl. 403. st.1. KZCG</ref> i osuđen na kaznu zatvora u
+					trajanju od 45 (četrdesetpet) dana, presudom <ref href="#vs">Višeg suda u Podgorici</ref> <ref id="pres_k_br_348/09" href="/presude/2010-05-25/K-br-348-2009">K.br. 348/2009 od <date date="2010-05-25">25.05.2010.</date>godine,
+					zbog <ref id="krivicni_zakonik_cg_kriv_cl_300/st/1" href="krivicni_zakonik_cg/krivicni_clan/300/st/1">krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300. st.1.
+					KZCG</ref> i osuđen na kaznu zatvora u trajanju od 2 (dvije) godine i 6 (šest) mjeseci, presudom <ref href="#osn">Osnovnog suda
+					u Nikšiću</ref> <ref id="pres_k_br_305/11" href="/presude/2011-06-03/K-br-305-11">K.br. 305/11</ref> od <date date="2011-06-03">03.06.2011.</date> godine, zbog 
+					<ref id="krivicni_zakonik_cg_kriv_cl_240/st/1/tac/1/cl/20" href="krivicni_zakonik_cg/krivicni_clan/240/st/1/tac/1/cl/20">krivičnog djela treška krađa iz čl. 240. st. 1. tač.1. u vezi čl. 20. KZCG</ref> i osuđen na kaznu zatvora u trajanju od 5 (pet) mjeseci,
+					presudom <ref href="#vs">Višeg suda u Podgorici</ref>
+					<ref id="pres_kv_br_969/11" href="/presude/2011-11-14/K-br-969-11">Kv.br.969/11</ref> od <date date="2011-11-14">14.11.2011.</date>godine, zbog
+					<ref id="krivicni_zakonik_cg_kriv_cl_300/st/1" href="krivicni_zakonik_cg/krivicni_clan/300/st/1">krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u
+					promet opojnih droga iz čl. 300. st.1. KZCG</ref> i osuđen na kaznu zatvora u trajanju od 2 (dvije) godine i
+					4(četri) mjeseca, presudom <ref href="#osk">Osnovnog suda u Kotoru</ref> <ref id="pres_k_br_188/17" href="/presude/2017-11-03/K-br-188-17">K.br. 188/17</ref> od <date date="2017-11-03">03.11.2017.</date> godine, zbog 
+					<ref id="krivicni_zakonik_cg_kriv_cl_399" href="krivicni_zakonik_cg/krivicni_clan/399">krivičnog djela nasilničko ponašanje iz čl. 399. KZ</ref> i osuđena na kaznu zatvora u trajanju od 6 (šest) mjeseci, u
+					pritvoru od <date date="2019-11-13">13.11.2019.</date> godine od <time time="01:45:00">01,45</time> časova, pa na dalje.
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIV JE</p>
+				<p>
+					Zato što je:
+					Dana <date date="2019-11-02">2.11.2019.</date>godine, oko <time time="00:00:00">00,00</time> časova, u B..., u ulici Ž... f..., ispred lokala "B...", prethodno doveden bez
+					svoje krivice u jaku razdraženost teškim vrijeđanjem od strane oštećenog <party id="p1_2" refersTo="#md" as="#Prosecutor">M.D.</party> koji je prilikom rasprave u
+					restoranu "B...", optuženom uputio riječi "narkomančino jedna!", " ko je tebe tu zaposlio?!" i da će ostati
+					bez posla, da bi zatim optuženog, koji je stajao udario nogom u zadnjicu u namjeri da istog ponizi, pa je
+					optuženi postupajući na mah, sa umišljajem pokušao da liši života oštećenog <party id="p1_2" refersTo="#md" as="#Prosecutor">M.D.<party>, na način što je nakon
+					ovog verbalnog i fizičkog sukoba u trenutku kada je oštećeni izašao iz restorana, optuženi <party id="p2" refersTo="#pm" as="#Defendant">P.</party> iz suvozačevih
+					vrata svog vozila marke "A...r..." reg. oznaka CT AS 754, uzeo nož i krenuo za oštećenim, koji se uputio ka
+					restoranu "V... P...", a koji se nalazi preko puta restorana "B...", a zatim mu zadao nekoliko udaraca u
+					predjelu tijela, nakon čega se oštećeni, kako bi se zaštitio, dao u bjekstvo pored parkiranih vozila ispred
+					restorana "V...P...", a <party id="p2" refersTo="#pm" as="#Defendant">optuženi</party> krenuo za njim trčeći, te kada ga je sustigao nožem mu ponovo zadao udarce
+					u predjelu leđa i vrata, od kojih udaraca je oštećeni pao, a optuženi nastavio da ga nožem ubada u
+					predjelu tijela, za koje vrijeme je <party id="p1_2" refersTo="#md" as="#Prosecutor">oštećeni</party> vikao "ubi me!", nanoseći mu tom prilikom teške tjelesne
+					povrede opasne po život u vidu dvije ubodnorezne rane u lijevom podlopatičnom predjelu, ubodnoreznu
+					ranu u desnom podlopatičnom predjelu, ubodnoreznu ranu u lijevom podušnom predjelu - lijeva bočna
+					strana vrata, u kom trenutku je prišao svjedok <ref href="#kn">K.N.</ref> i odgurnuo <party id="p2" refersTo="#pm" as="#Defendant">optuženog P.</party> od <party id="p1_2" refersTo="#md" as="#Prosecutor">oštećenog</party>,
+					koji se zatim udaljio sa lica mjesta,
+					- čime je izvršio <ref id="krivicni_zakonik_cg_kriv_cl_145" href="krivicni_zakonik_cg/krivicni_clan/145">krivično djelo ubistvo na mah u pokušaju iz čl. 145.</ref> u vezi <ref id="krivicni_zakonik_cg_kriv_cl_20" href="krivicni_zakonik_cg/krivicni_clan/20">čl. 20.</ref> Krivičnog zakonika Crne
+					Gore
+					Pa ga sud primjenom citiranih zakonskih odredbi, te odredbi čl. <ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">32</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_33" href="krivicni_zakonik_cg/krivicni_clan/33">33</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_36" href="krivicni_zakonik_cg/krivicni_clan/36">36</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_42" href="krivicni_zakonik_cg/krivicni_clan/42">42</ref>, i 
+					<ref id="krivicni_zakonik_cg_kriv_cl_51" href="krivicni_zakonik_cg/krivicni_clan/51">51.</ref>, Krivičnog zakonika
+					Crne Gore,
+
+				</p>
+				<p style="text-align: center;">OSUĐUJE</p>
+				<p>
+					Na kaznu zatvora u trajanju od 1(jedne) godine i 2 (dva) mjeseca, s tim što će mu se u kaznu uračunti
+					vrijeme provedeno u pritvoru od <date date="2019-11-13">13.11.2019.</date> godine od <time time="01:45:00">01,45</time> časova, pa na dalje.
+					OBAVEZUJE SE optuženi da na ime troškova krivičnog postupka nastalih tokom istrage i tokom zaključenja
+					sporazuma o priznanju krivice uplati troškove i to: na ime nagrade sudskom vještaku medicinske struke <ref href="#rn">dr
+					R.N.</ref> iznos od 82,50 eura, na ime izvršenog vještačenja komisiji vještaka - neuropsihijatru prof. <ref href="#ms">dr. M.S.</ref>,
+					specijalisti psihijatru <ref href="#gz">dr. G.Ž.</ref> i specijalisti psihologu <ref href="#sib">S.I.B.</ref> u ukupnom iznosu od 990,00 eura, na ime
+					nagrade i nužnih izdataka branioca po službenoj dužnosti adv.<lawyer id="lo1" referseTo="sj"> S.J.</lawyer> iznos od 3.025 eura, sve u roku od 15
+					dana od dana pravosnažnosti presude donijete na osnovu sporazuma o priznanju krivice.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

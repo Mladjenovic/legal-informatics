@@ -1,0 +1,128 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2022-11-09/164-21!main"/>
+					<FRBRuri value="/akn/cg/judgment/2022-11-09/164-21"/>
+					<FRBRdate date="2022-11-09"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="164-21"/>                    
+					<FRBRname value="K 164/21"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2022-11-09/164-21/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2022-11-09/164-21/cg@"/>
+					<FRBRdate date="2022-11-09"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2022-11-09/164-21/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2022-11-09/164-21/cg@/!main.akn"/>
+					<FRBRdate date="2022-11-09"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2022-11-09" showAs="Osnovni Sud u Beranama" number="K 164/21"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Nikšiću"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Nikšiću"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="popovic" href="/akn/cg/ontology/person/judges/popovic" showAs="Dubravka Popović"/>
+				<TLCPerson eId="barjaktarovic" href="/akn/cg/ontology/person/barjaktarovic" showAs="Barjaktarović Marina"/>
+				<TLCPerson eId="bm" href="/akn/cg/ontology/person/bm" showAs="B.M."/>
+				<TLCPerson eId="mj" href="/akn/cg/ontology/person/mj" showAs="M.J."/>
+				<TLCPerson eId="br" href="/akn/cg/ontology/person/br" showAs="B.R."/>
+				<TLCPerson eId="bn" href="/akn/cg/ontology/person/bn" showAs="B.N."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">K.br.164/21</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#os">Osnovni sud u Beranama,</ref>, po sudiji pojedincu <judge id="jud01" refersTo="#babovic">Popović Dubravki</judge> uz učešće  samostalne referentkinje 
+					<ref href="#barjaktarovic">Barjaktarović Marine</ref>, kao zapisničarke, u krivičnom predmetu protiv okrivljenog <party id="p1" refersTo="#bm" as="#Defendant">B.M.</party> iz B., zbog 
+					<ref id="krivicni_zakonik_cg_kriv_cl_152_st_2" href="krivicni_zakonik_cg/krivicni_clan/152/st/2">krivičnog djela laka tjelesna povreda iz
+					čl.152.st.2. u vezi st.1. Krivičnog Zakonika Crne Gore</ref>, po optužnom predlogu <ref href="#odt">Osnovnog državnog tužilaštva u B.a</ref> 
+					Kt.br........... od <date date="2021-09-21">21. septembra 2021.</date>godine, nakon dovršenog glavnog i javnog pretresa, u prisustvu Zastupnice javne optužbe Državne tužiteljke u Osnovnom državnom
+					tužilaštvu u B. <ref href="#mj">M. J.</ref>, oštećenog <party id="p2" refersTo="#br" as="#Plaintiff">B.R.a</party>, B., okrivljenog i njegovog branioca advokata <lawyer id="law1" refersTo="#bn">B. N.</lawyer>, iz B., donio je
+					dana <date date="2022-11-09">09.11.2022.</date> godine, a javno objavio dana <date date="2022-11-11">11.11.2022. godine:
+				</p>
+				<p style="text-align: center;">P R E S U D U</p>
+			<introduction>
+			<background>
+				<p>
+					Okrivljeni <party id="p1" refersTo="#bm" as="#Defendant">B.M.</party>, sa jedinstvenim matičnim brojem ........, od oca I. i majke D., rođene D., rođen ......... godine
+					u B., sa prebivalištem u selu G.a, opština Be., državljanin Crne Gore, penzioner, neoženjen, pismen, sa
+					završenom osnovnom školom, siromašnog imovnog stanja, osuđivan: presudom <ref href="#os">Osnovnog suda u B.</ref>
+					K.br..........., pravosnažnom od <date date="2013-03-06">06.03.2013.</date> godine, po <ref id="krivicni_zakonik_cg_kriv_cl_152_st_2" href="krivicni_zakonik_cg/krivicni_clan/152/st/2">čl.152. st.2. KZ CG</ref>, na novčanu kaznu u iznosu od
+					......... € /šeststotinaeura/; i presudom Osnovnog suda u B. K.br..........., pravosnažnom od <date date="2017-08-09">09.08.2017.</date>
+					godine, po <ref id="krivicni_zakonik_cg_kriv_cl_239_st_1" href="krivicni_zakonik_cg/krivicni_clan/239/st/1">čl.239. st.1. KZ CG</ref>, izrečena mjera upozorenja.
+
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIV JE</p>
+				<p>
+				Što je:
+				</p>
+				<p>
+					Dana ........2020. godine, oko <time time="08:30:00">08,30</time> časova, u selu G.a, opština Be., sposoban da shvati značaj svog djela i
+					upravlja svojim postupcima i svjestan svog djela čije je izvršenje htio i znajući da je isto zabranjeno, lako
+					tjelesno povrijedio oštećenog <party id="p2" refersTo="#br" as="#Plaintiff">B.R.a</party>, na način što ga je nakon kraće verbalne prepirke udario štapom –
+					mačugom dužine oko 1,00 m do 1,20 m sa kukom debljine oko 2 – 3 cm u predjelu lijeve ruke, sredstvom
+					podobnim da tijelo teško povrijedi ili zdravlje teško naruši, kojom prilikom je oštećeni zadobio laku
+					tjelesnu povredu u vidu krvnog podliva lijeve nadlaktice.
+				</p>
+				<p>
+					- čime je učinio <ref id="krivicni_zakonik_cg_kriv_cl_152_st_2" href="krivicni_zakonik_cg/krivicni_clan/152/st/2">krivično djelo laka tjelesna povreda iz
+					čl.152.st.2. u vezi st.1. Krivičnog Zakonika Crne Gore</ref>.
+				</p>
+				<p>
+					- pa sud okrivljenog B. Ma. za učinjeno krivično djelo na osnovu navedenih Zakonskih propisa,
+						<ref id="krivicni_zakonik_cg_kriv_cl_4_st_2" href="krivicni_zakonik_cg/krivicni_clan/4/st/2">čl.4. st.2</ref>
+						<ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">čl.32.</ref>,
+						<ref id="krivicni_zakonik_cg_kriv_cl_36" href="krivicni_zakonik_cg/krivicni_clan/36">čl.36.</ref> i
+						<ref id="krivicni_zakonik_cg_kriv_cl_42" href="krivicni_zakonik_cg/krivicni_clan/42">čl.42.</ref> 
+						Krivičnog Zakonika Crne Gore /KZ CG/ i <ref id="zkp_kriv_cl_226_st_2" href="zkp/krivicni_clan/226/stav/2">čl.226. st.2</ref>, 
+						<ref id="zkp_kriv_cl_239_st_2" href="zkp/krivicni_clan/239/stav/2">čl.239. st.2.</ref> i čl. <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">čl.374.</ref> Zakonika o
+					krivičnom postupku /ZKP-a/:
+				</p>
+				
+				<p style="text-align: center;">O S U Đ U J E</p>
+				<p>
+					Na kaznu zatvora u trajanju od ...... /d./ mjeseca i istovremeno određuje da ovu kaznu izdržava u
+					prostorijama u kojima stanuje.
+				</p>
+				<p>
+					U toku izvršenja kazne zatvora na koju je osuđen okrivljeni ne smije napuštati prostorije u kojima stanuje,
+					osim u slučajevima propisanim zakonom kojim se uređuje izvršenje krivičnih sankcija, a ukoliko isti
+					jednom u trajanju preko šest časova ili dva puta u trajanju do šest časova samovoljno napusti prostorije u
+					kojima stanuje, sud će odrediti da ostatak kazne zatvora izdrži u Zavodu za izvršenje krivičnih sankcija.
+				</p>
+				<p>
+					Okrivljeni <party id="p1" refersTo="#bm" as="#Defendant">B.M.</ref> obavezuje se da na ime troškova krivičnog postupka - paušala isplati novčani iznos od
+					30,00 € /trideseteura/, u korist budžeta Crne Gore na žiro račun broj 832 - 150 - 38, u roku od 15 /petnaest/
+					dana od dana pravosnažnosti presude, pod prijetnjom prinudnog izvršenja.
+				</p>
+				<p>
+					Oštećeni <party id="p2" refersTo="#br" as="#Plaintiff">B.R.</ref> radi ostvarivanja imovinskopravnog zahtjeva za naknadu štete upućuje se na parnicu.
+				</p>
+
+				
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:lc="http://informatika.ftn.uns.ac.rs/legal-case.rdf#">
+    <lc:case rdf:about="http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01">
+        <lc:name>case 01</lc:name>
+        <lc:defendant>Cvele</lc:defendant>
+	<lc:neko_lisen_zivota_ili_nanesena_teska_telesna_povreda>no</lc:neko_lisen_zivota_ili_nanesena_teska_telesna_povreda>
+	<lc:ubistvo_na_mah>no</lc:ubistvo_na_mah>
+	<lc:pri_svadji_se_masi_oruzja_podobnog_da_tijelo_tesko_povredi>no</lc:pri_svadji_se_masi_oruzja_podobnog_da_tijelo_tesko_povredi>
+	<lc:lako_telesno_povrijedi_ili_mu_zdravlje_narusi>no</lc:lako_telesno_povrijedi_ili_mu_zdravlje_narusi>
+	<lc:oruzjem_orudjem_lako_telesno_povrijedi_ili_mu_zdravlje_narusi>no</lc:oruzjem_orudjem_lako_telesno_povrijedi_ili_mu_zdravlje_narusi>
+	<lc:ucinilac_bio_izazvan_nepristojnim_ili_grubim_ponasanjem_ostecenog>no</lc:ucinilac_bio_izazvan_nepristojnim_ili_grubim_ponasanjem_ostecenog>
+	<lc:gonjenje_se_preduzima_po_privatnoj_tuzbi>no</lc:gonjenje_se_preduzima_po_privatnoj_tuzbi>
+	<lc:tesko_telesno_povrijedi_ili_mu_zdravlje_narusi>no</lc:tesko_telesno_povrijedi_ili_mu_zdravlje_narusi>
+	<lc:tesko_telesno_povredi_ili_mu_zdravlje_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_ili_unisten_ili_ostecen_trajno_deo_tela_naneta_trajna_nesposonost>no</lc:tesko_telesno_povredi_ili_mu_zdravlje_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_ili_unisten_ili_ostecen_trajno_deo_tela_naneta_trajna_nesposonost>
+	<lc:teska_telesna_povreda_i_nastupila_smrt>no</lc:teska_telesna_povreda_i_nastupila_smrt>
+	<lc:teska_telesna_povreda_ili_zdravlje_narusi_iz_nehata>no</lc:teska_telesna_povreda_ili_zdravlje_narusi_iz_nehata>
+	<lc:ucini_na_mah_doveden_u_razdrazenost_bez_svoje_krivice>no</lc:ucini_na_mah_doveden_u_razdrazenost_bez_svoje_krivice>
+	<lc:sakacenje_zenskih_genitalija>no</lc:sakacenje_zenskih_genitalija>
+	<lc:prinudna_sterilizacija>yes</lc:prinudna_sterilizacija>
+    </lc:case>
+</rdf:RDF>

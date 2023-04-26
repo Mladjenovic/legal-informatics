@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<act name="KRIVIČNI ZAKONIK CRNE GORE">
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/act/2003-12-25/!main"/>
+					<FRBRuri value="/akn/cg/act/2003-12-25"/>
+					<FRBRdate date="2003-12-25"/>
+					<FRBRauthor href="#ns" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="act"/>
+					<FRBRnumber value="070/03"/>                    
+					<FRBRname value="KRIVIČNI ZAKONIK CRNE GORE"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/act/2003-12-25/cg@2018-07-19/!main"/>
+					<FRBRuri value="/akn/cg/act/2003-12-25/cg@2018-07-19"/>
+					<FRBRdate date="2018-07-19"/>
+					<FRBRauthor href="#sl" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/act/2003-12-25/cg@2018-07-19/!main.xml"/>
+					<FRBRuri value="/akn/cg/act/2003-12-25/cg@2018-07-19/!main.akn"/>
+					<FRBRdate date="2023-02-28"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="sl" date="2018-07-19" showAs="Službeni list Republike Crne Gore" number="57/18"/>
+			<classification source="#timnestobolje">
+				<keyword value="offense" showAs="KRIVIČNA DJELA PROTIV ŽIVOTA I TIJELA" dictionary="CG"/>
+			</classification>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="ns" href="/akn/cg/ontology/organization/ns" showAs="Narodna skupstina Republike Crne Gore"/>
+				<TLCOrganization eId="sl" href="/akn/cg/ontology/organization/sl" showAs="Službeni list Republike Crne Gore"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+			</references>
+		</meta>
+		<header>
+			<title></title>
+		</header>
+		<body>
+			<chapter eId="chp_14">
+				<num>GLAVA ČETRNAESTA</num>
+				<heading>KRIVIČNA DJELA PROTIV ŽIVOTA I TIJELA</heading>
+				<article eId="art_143">
+					<heading>Ubistvo</heading>
+					<num>Član 143</num>
+					<paragraph eId="art_143__para_1">
+							<content eId="art_143__para_1__content">
+								<p>Ko drugog liši života,kazniće se zatvorom od pet do petnaest godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_144">
+					<heading>Teško ubistvo</heading>
+					<num>Član 144</num>
+					<paragraph eId="art_144__para_1">
+							<content eId="art_144__para_1__content">
+								<p>Zatvorom najmanje deset godina ili kaznom dugotrajnog zatvora kazniće se:
+								</p>
+								<subparagraph eId="art_144__para_1_subpara_1">
+									<content>
+										<p>ko drugog liši života na svirep ili podmukao način;</p>
+									</content>
+								</subparagraph>
+								<subparagraph eId="art_144__para_1_subpara_2">
+									<content>
+										<p>ko drugog liši života pri bezobzirnom nasilničkom ponašanju;</p>
+									</content>
+								</subparagraph>
+								<subparagraph eId="art_144__para_1_subpara_3">
+									<content>
+										<p>ko drugog liši života i pri tom sa umišljajem dovede u opasnost život još nekog lica;</p>
+									</content>
+								</subparagraph>
+								<subparagraph eId="art_144__para_1_subpara_4">
+									<content>
+										<p>ko drugog liši života iz koristoljublja, radi izvršenja ili prikrivanja drugog krivičnog djela, iz bezobzirne osvete ili iz drugih niskih pobuda;</p>
+									</content>
+								</subparagraph>
+								<subparagraph eId="art_144__para_1_subpara_5">
+									<content>
+										<p>ko liši života službeno ili vojno lice pri vršenju ili u vezi sa vršenjem službene dužnosti;</p>
+									</content>
+								</subparagraph>
+								<subparagraph eId="art_144__para_1_subpara_6">
+									<content>
+										<p>ko liši života dijete ili bremenitu ženu;</p>
+									</content>
+								</subparagraph>
+								<subparagraph eId="art_144__para_1_subpara_7">
+									<content>
+										<p>ko liši života člana svoje porodice ili porodične zajednice kojeg je prethodno zlostavljao;</p>
+									</content>
+								</subparagraph>
+								<subparagraph eId="art_144__para_1_subpara_8">
+									<content>
+										<p>ko sa umišljajem liši života više lica, a ne radi se o ubistvu na mah, ubistvu djeteta pri porođaju ili lišenju života iz samilosti.</p>
+									</content>
+								</subparagraph>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_145">
+					<heading>Ubistvo na mah</heading>
+					<num>Član 145</num>
+					<paragraph eId="art_145__para_1">
+							<content eId="art_145__para_1__content">
+								<p>Ko drugog liši života na mah doveden bez svoje krivice u jaku razdraženost napadom, zlostavljanjem ili teškim vrijeđanjem od strane ubijenog, kazniće se zatvorom od jedne do osam godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_146">
+					<heading>Ubistvo djeteta pri porođaju</heading>
+					<num>Član 146</num>
+					<paragraph eId="art_146__para_1">
+							<content eId="art_146__para_1__content">
+								<p>Majka koja liši života svoje dijete za vrijeme porođaja ili neposredno poslije porođaja, dok kod nje traje poremećaj izazvan porođajem, kazniće se zatvorom od šest mjeseci do pet godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_147">
+					<heading>Lišenje života iz samilosti</heading>
+					<num>Član 147</num>
+					<paragraph eId="art_147__para_1">
+							<content eId="art_147__para_1__content">
+								<p>Ko liši života punoljetno lice iz samilosti zbog teškog zdravstvenog stanja u kojem se ovo nalazi, a na njegov ozbiljan i izričit zahtjev, kazniće se zatvorom od šest mjeseci do pet godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_148">
+					<heading>Nehatno lišenje života</heading>
+					<num>Član 148</num>
+					<paragraph eId="art_148__para_1">
+							<content eId="art_148__para_1__content">
+								<p>Ko drugog liši života iz nehata, kazniće se zatvorom od šest mjeseci do pet godina..</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_149">
+					<heading>Navođenje na samoubistvo i pomaganje u samoubistvu</heading>
+					<num>Član 149</num>
+					<paragraph eId="art_149__para_1">
+							<content eId="art_149__para_1__content">
+								<p>Ko navede drugog na samoubistvo ili mu pomogne u izvršenju samoubistva, pa ovo bude izvršeno ili pokušano, kazniće se zatvorom od jedne do pet godina.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_149__para_2">
+							<content eId="art_149__para_2__content">
+								<p>Ko drugom pomogne u izvršenju samoubistva pod uslovima iz člana 147 ovog zakonika, pa ovo bude izvršeno ili pokušano, kazniće se zatvorom od tri mjeseca do tri godine.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_149__para_3">
+							<content eId="art_149__para_3__content">
+								<p>Ko djelo iz stava 1 ovog člana učini prema maloljetniku ili prema licu koje se nalazi u stanju bitno smanjene uračunljivosti, kazniće se zatvorom od dvije do deset godina.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_149__para_4">
+							<content eId="art_149__para_4__content">
+								<p>Ako je djelo iz stava 1 ovog člana učinjeno prema djetetu ili prema neuračunljivom licu, učinilac će se kazniti po članu 144 ovog zakonika.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_149__para_5">
+							<content eId="art_149__para_5__content">
+								<p>Ko surovo ili nečovječno postupa sa licem koje se prema njemu nalazi u odnosu kakve podređenosti ili zavisnosti, pa ono usljed takvog postupanja izvrši ili pokuša samoubistvo koje se može pripisati nehatu učinioca, kazniće se zatvorom od šest mjeseci do pet godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_150">
+					<heading>Nedozvoljen prekid trudnoće</heading>
+					<num>Član 150</num>
+					<paragraph eId="art_150__para_1">
+							<content eId="art_150__para_1__content">
+								<p>Ko protivno propisima o vršenju prekida trudnoće bremenitoj ženi sa njenim pristankom izvrši pobačaj, započne da vrši pobačaj ili joj pomogne da izvrši pobačaj, kazniće se zatvorom od tri mjeseca do tri godine.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_150__para_2">
+							<content eId="art_150__para_2__content">
+								<p>Ko bremenitoj ženi bez njenog pristanka, a ako je mlađa od osamnaest godina bez njenog pristanka i bez pisane saglasnosti njenog roditelja, usvojioca ili staraoca, izvrši ili započne da vrši pobačaj, kazniće se zatvorom od jedne do osam godina.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_150__para_3">
+							<content eId="art_150__para_3__content">
+								<p>Ako je usljed djela iz st. 1 i 2 ovog člana nastupila smrt, teško narušavanje zdravlja ili druga teška tjelesna povreda žene nad kojom je vršen prekid trudnoće, učinilac će se kazniti za djelo iz stava 1 ovog člana zatvorom od šest mjeseci do šest godina, a za djelo iz stava 2 ovog člana zatvorom od dvije do dvanaest godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_151">
+					<heading>Teška tjelesna povreda</heading>
+					<num>Član 151</num>
+					<paragraph eId="art_151__para_1">
+							<content eId="art_151__para_1__content">
+								<p>Ko drugog teško tjelesno povrijedi ili mu zdravlje teško naruši, kazniće se zatvorom od šest mjeseci do pet godina.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_151__para_2">
+							<content eId="art_151__para_2__content">
+								<p>Ko drugog teško tjelesno povrijedi ili mu zdravlje naruši tako teško da je usljed toga doveden u opasnost život povrijeđenog ili je uništen ili trajno i u znatnoj mjeri oštećen ili oslabljen neki važan dio njegovog tijela ili važan organ ili je prouzrokovana trajna nesposobnost za rad povrijeđenog ili trajno i teško narušenje njegovog zdravlja ili unakaženost, kazniće se zatvorom od jedne do osam godina.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_151__para_3">
+							<content eId="art_151__para_3__content">
+								<p>Ako je usljed djela iz st. 1 i 2 ovog člana nastupila smrt povrijeđenog lica, učinilac će se kazniti zatvorom od dvije do dvanaest godina.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_151__para_4">
+							<content eId="art_151__para_4__content">
+								<p>Ko djelo iz st. 1 i 2 ovog člana učini iz nehata, kazniće se zatvorom do tri godine.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_151__para_5">
+							<content eId="art_151__para_5__content">
+								<p>Ko djelo iz st. 1 do 3 ovog člana učini na mah, doveden bez svoje krivice u jaku razdraženost napadom, zlostavljanjem ili teškim vrijeđanjem od strane povrijeđenog, kazniće se za djelo iz stava 1 zatvorom do tri godine, za djelo iz stava 2 zatvorom od tri mjeseca do četiri godine, a za djelo iz stava 3 zatvorom od šest mjeseci do pet godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_151a">
+					<heading>Sakaćenje ženskih genitalija</heading>
+					<num>Član 151a</num>
+					<paragraph eId="art_151a__para_1">
+							<content eId="art_151a__para_1__content">
+								<p>Ko osakati spoljne djelove ženskih genitalija, kazniće se zatvorom od jedne do osam godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_151b">
+					<heading>Prinudna sterilizacija</heading>
+					<num>Član 151b</num>
+					<paragraph eId="art_151b__para_1">
+							<content eId="art_151b__para_1__content">
+								<p>Ko upotrebom sile ili prijetnje izvrši sterilizaciju drugog lica u cilju onemogućavanja njegove reprodukcije, kazniće se zatvorom od tri mjeseca do pet godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_152">
+					<heading>Laka tjelesna povreda</heading>
+					<num>Član 152</num>
+					<paragraph eId="art_152__para_1">
+							<content eId="art_152__para_1__content">
+								<p>Ko drugog lako tjelesno povrijedi ili mu zdravlje lako naruši, kazniće se novčanom kaznom ili zatvorom do jedne godine.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_152__para_2">
+							<content eId="art_152__para_2__content">
+								<p>Ako je takva povreda nanesena oružjem, opasnim oruđem ili drugim sredstvom podobnim da tijelo teško povrijedi ili zdravlje teško naruši, učinilac će se kazniti zatvorom do tri godine.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_152__para_3">
+							<content eId="art_152__para_3__content">
+								<p>Sud može učiniocu djela iz stava 2 ovog člana izreći sudsku opomenu, ako je učinilac bio izazvan nepristojnim ili grubim ponašanjem oštećenog.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_152__para_4">
+							<content eId="art_152__para_4__content">
+								<p>Gonjenje za djelo iz stava 1 ovog člana preduzima se po privatnoj tužbi.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_153">
+					<heading>Učestvovanje u tuči</heading>
+					<num>Član 153</num>
+					<paragraph eId="art_153__para_1">
+							<content eId="art_153__para_1__content">
+								<p>Ko učestvuje u tuči u kojoj je neko lišen života ili je drugom nanesena teška tjelesna povreda, kazniće se za samo učestvovanje zatvorom od tri mjeseca do tri godine.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_154">
+					<heading>Ugrožavanje opasnim oruđem pri tuči i svađi</heading>
+					<num>Član 154</num>
+					<paragraph eId="art_154__para_1">
+							<content eId="art_154__para_1__content">
+								<p>Ko se pri tuči ili svađi maši oružja, opasnog oruđa ili drugog sredstva podobnog da tijelo teško povrijedi ili zdravlje teško naruši, kazniće se novčanom kaznom ili zatvorom do šest mjeseci.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_155">
+					<heading>Izlaganje opasnosti</heading>
+					<num>Član 155</num>
+					<paragraph eId="art_155__para_1">
+							<content eId="art_155__para_1__content">
+								<p>Ko drugo lice ostavi bez pomoći u stanju ili prilikama opasnim za život ili zdravlje koje je sam pouzrokovao, kazniće se zatvorom od tri mjeseca do tri godine.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_155__para_2">
+							<content eId="art_155__para_2__content">
+								<p>Ako je usljed djela iz stava 1 ovog člana nastupilo teško narušenje zdravlja ili druga teška tjelesna povreda ostavljenog lica, učinilac će se kazniti zatvorom od jedne do pet godina.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_155__para_3">
+							<content eId="art_155__para_3__content">
+								<p>Ako je usljed djela iz stava 1 ovog člana nastupila smrt ostavljenog lica, učinilac će se kazniti zatvorom od jedne do osam godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_156">
+					<heading>Napuštanje nemoćnog lica</heading>
+					<num>Član 156</num>
+					<paragraph eId="art_156__para_1">
+							<content eId="art_156__para_1__content">
+								<p>Ko nemoćno lice koje mu je povjereno ili o kojem je inače dužan da se stara ostavi bez pomoći u stanju ili prilikama opasnim za život ili zdravlje, kazniće se zatvorom od tri mjeseca do tri godine.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_156__para_2">
+							<content eId="art_156__para_2__content">
+								<p>Ako je usljed djela iz stava 1 ovog člana nastupilo teško narušenje zdravlja ili druga teška tjelesna povreda ostavljenog lica, učinilac će se kazniti zatvorom od jedne do pet godina.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_156__para_3">
+							<content eId="art_156__para_3__content">
+								<p>Ako je usljed djela iz stava 1 ovog člana nastupila smrt ostavljenog lica, učinilac će se kazniti zatvorom od jedne do osam godina.</p>
+							</content>
+					</paragraph>
+				</article>
+				<article eId="art_157">
+					<heading>Napuštanje nemoćnog lica</heading>
+					<num>Član 157</num>
+					<paragraph eId="art_157__para_1">
+							<content eId="art_157__para_1__content">
+								<p>Ko ne pruži pomoć licu koje se nalazi u neposrednoj opasnosti za život iako je to mogao učiniti bez opasnosti za sebe ili drugog, kazniće se novčanom kaznom ili zatvorom do jedne godine.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_156__para_2">
+							<content eId="art_157__para_2__content">
+								<p>Ako je usljed nepružanja pomoći nastupilo teško narušenje zdravlja ili druga teška tjelesna povreda lica koje se nalazilo u neposrednoj opasnosti za život, učinilac će se kazniti novčanom kaznom ili zatvorom do dvije godine.</p>
+							</content>
+					</paragraph>
+					<paragraph eId="art_157__para_3">
+							<content eId="art_157__para_3__content">
+								<p>Ako je usljed nepružanja pomoći nastupila smrt lica koje se nalazilo u neposrednoj opasnosti za život, učinilac će se kazniti zatvorom od tri mjeseca do tri godine.</p>
+							</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

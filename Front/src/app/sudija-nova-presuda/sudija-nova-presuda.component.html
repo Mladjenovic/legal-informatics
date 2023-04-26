@@ -1,0 +1,252 @@
+<div class="panel-header panel-header-sm">
+</div>
+<html>
+<body>
+<!-- header -->
+<nav class="navbar">
+  <!--
+    <div class="navbar-brand">
+      <button class="navbar-item navbar-item-right">gfdgfdg</button>
+    </div>
+
+  -->
+  <a class="mat-button" (click)="logout()">Logout</a>
+</nav>
+<h1>Nova presuda</h1>
+<div id="forma">
+
+  <form [formGroup]="PresudaForm" (ngSubmit)="create()">
+    <fieldset>
+      <legend>Opšti podaci</legend>
+    <div class="form-group">
+        <label>Sud: </label>
+        <input formControlName="sud">
+    </div>
+
+    <div class="form-group">
+        <label>poslovniBroj: </label>
+        <input formControlName="poslovniBroj">
+    </div>
+
+    <div class="form-group">
+        <label>Tuzilac: </label>
+        <input formControlName="tuzilac">
+    </div>
+
+    <div class="form-group">
+      <label>Okrivljeni: </label>
+      <input formControlName="okrivljeni">
+  </div>
+
+  <div>
+    <label>Sudije</label>
+    <mat-form-field >
+      <mat-label>Sudije</mat-label>
+      <mat-select formControlName="sudije" multiple>
+        <mat-option id="sudije"  *ngFor="let sudija of sudije" [value]="sudija">{{sudija.ime}} {{sudija.prezime}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+    </fieldset>
+    <fieldset>
+      <legend>Podaci za rasuđivanje</legend>
+  <div>
+    <label>Hladno oruzije: </label>
+    <input type="checkbox" formControlName="hladnoOruzije">
+  </div>
+
+  <div>
+    <label>Predumišljaj: </label>
+    <input type="checkbox" formControlName="predumisljaj">
+  </div>
+
+  <div>
+    <label>Telesne povrede</label>
+    <mat-form-field >
+      <mat-label>Telesne povrede</mat-label>
+      <mat-select formControlName="telesnePovrede" multiple>
+        <mat-option id="sudije"  *ngFor="let telesnaPovreda of telesnePovrede" [value]="telesnaPovreda">{{telesnaPovreda.opis}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div>
+    <label>Odnos okrivljenog i oštećenog</label>
+    <mat-form-field >
+      <mat-label>Odnos okrivljenog i oštećenog</mat-label>
+      <mat-select formControlName="odnos" multiple>
+        <mat-option id="sudije" value="stranci">Stranci</mat-option>
+        <mat-option id="sudije" value="poznanici">Poznanici</mat-option>
+        <mat-option id="sudije" value="prijatelji">Prijatelji</mat-option>
+        <mat-option id="sudije" value="kolege">Kolege</mat-option>
+        <mat-option id="sudije" value="rodbina_sira">Šira rodbina</mat-option>
+        <mat-option id="sudije" value="rodbina_uza">Uža rodbina</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+    </fieldset>
+<fieldset>
+  <legend>Presuda</legend>
+  <div>
+    <label>Primenjeni propisi</label>
+    <mat-form-field >
+      <mat-label>Primenjeni propisi</mat-label>
+      <mat-select formControlName="primenjeniPropisi" multiple>
+        <mat-option id="sudije"  *ngFor="let primenjenPropis of primenjeniPropisi" [value]="primenjenPropis">{{primenjenPropis.opis}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div>
+    <label>Krivicna dela</label>
+    <mat-form-field >
+      <mat-label>Krivicna dela</mat-label>
+      <mat-select formControlName="krivicnaDela" multiple>
+        <mat-option id="sudije"  *ngFor="let krivicnoDelo of krivicnaDela" [value]="krivicnoDelo">{{krivicnoDelo.naziv}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div>
+    <label>Osudjen: </label>
+    <input type="checkbox" formControlName="osudjen">
+  </div>
+    
+  <div>
+    <label>Kazna zatvora: </label>
+    <input formControlName="kaznaZatvor">
+  </div>
+
+  <div>
+    <label>Kazna novac: </label>
+    <input formControlName="kaznaNovac">
+  </div>
+</fieldset>
+
+
+    <button type="submit" class="btn btn-primary">Sačuvaj presudu</button>
+  
+</form>
+</div>
+<div>
+  <button class="btn btn-outline-primary" (click)="Rule(openCom)">Predlog kazne po pravilu</button>
+  <button class="btn btn-outline-primary" (click)="Case(openCom1)">Predlog kazne po slucaju</button>
+  <button class="btn btn-outline-primary" (click)="GiveUp()">Odustani</button>
+</div>
+<ng-template #openCom let-modal windowClass="modal-dialog">
+  <div class="modal-header">
+    <h4 class="modal-title" class="text-right" id="modal-basic-title3">Predlog kazne po pravilu</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="card-body">
+      <form [formGroup]="PresudaPraviloForm" (ngSubmit)="create1()">
+        <div class="form-group"> 
+          <label>Lisen zivota ili nanesena teska povreda: </label>
+          <input type="checkbox" formControlName="neko_lisen_zivota_ili_nanesena_teska_telesna_povreda">
+        </div>
+
+        <div>
+          <label>Ubistvo na mah: </label>
+          <input type="checkbox" formControlName="ubistvo_na_mah">
+        </div>
+
+        <div>
+          <label>Pri svadji se masio oruzija podobnog da telo tesko povredi: </label>
+          <input type="checkbox" formControlName="pri_svadji_se_masi_oruzja_podobnog_da_tijelo_tesko_povredi">
+        </div>
+
+        <div>
+          <label>Laka telesno povreda ili narusavanje zdravlja: </label>
+          <input type="checkbox" formControlName="lako_telesno_povrijedi_ili_mu_zdravlje_narusi">
+        </div>
+
+        <div>
+          <label>Oruzije/orudjem lako/tesko povredio ili narusio zdravlje: </label>
+          <input type="checkbox" formControlName="oruzjem_orudjem_lako_telesno_povrijedi_ili_mu_zdravlje_narusi">
+        </div>
+
+        <div>
+          <label>Nepristojno ili grubo ponasanje: </label>
+          <input type="checkbox" formControlName="ucinilac_bio_izazvan_nepristojnim_ili_grubim_ponasanjem_ostecenog">
+        </div>
+
+        <div>
+          <label>Privatna tuzba: </label>
+          <input type="checkbox" formControlName="gonjenje_se_preduzima_po_privatnoj_tuzbi">
+        </div>
+
+        <div>
+          <label>Teska telesna povreda ili naruseno zdravlje: </label>
+          <input type="checkbox" formControlName="tesko_telesno_povrijedi_ili_mu_zdravlje_narusi">
+        </div>
+
+        <div>
+          <label>Teska telesna povreda ili naruseno zdravlje tako da je zivot doveden u opasnost ili unisten ili osakacen trajno ili trajna nesposobnost: </label>
+          <input type="checkbox" formControlName="tesko_telesno_povredi_ili_mu_zdravlje_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_ili_unisten_ili_ostecen_trajno_deo_tela_naneta_trajna_nesposonost">
+        </div>
+
+        <div>
+          <label>Teska telesna povredna i nastup smrti: </label>
+          <input type="checkbox" formControlName="teska_telesna_povreda_i_nastupila_smrt">
+        </div>
+
+        <div>
+          <label>Teska telesna povreda ili zdravlje naruseno iz nehata: </label>
+          <input type="checkbox" formControlName="teska_telesna_povreda_ili_zdravlje_narusi_iz_nehata">
+        </div>
+
+        <div>
+          <label>Mah i razdrazenost bez svoje krivice: </label>
+          <input type="checkbox" formControlName="ucini_na_mah_doveden_u_razdrazenost_bez_svoje_krivice">
+        </div>
+
+        <div>
+          <label>Sakacenje zensih genitalija: </label>
+          <input type="checkbox" formControlName="sakacenje_zenskih_genitalija">
+        </div>
+
+        <div>
+          <label>Prinudna sterilizacija: </label>
+          <input type="checkbox" formControlName="prinudna_sterilizacija">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Izracunaj predlog presude po pravilu</button>
+      </form>
+
+      <div>
+        <pre>{{rezultatPravilo}}</pre>
+      </div>
+      
+
+    </div>
+
+  </div>
+
+  <div class="modal-footer">
+
+  </div>
+</ng-template>
+
+<ng-template #openCom1 let-modal windowClass="modal-dialog">
+  <div class="modal-header">
+    <h4 class="modal-title" class="text-right" id="modal-basic-title3">Predlog kazne po slucaju</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="card-body">
+      <div [innerHTML]="rezultatSlucaj" style="white-space: pre-line;display: block;">
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="modal-footer">
+
+  </div>
+</ng-template>

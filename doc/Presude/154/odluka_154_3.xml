@@ -1,0 +1,109 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2013-10-17/124-2013!main"/>
+					<FRBRuri value="/akn/cg/judgment/2013-10-17/124-2013"/>
+					<FRBRdate date="2013-10-17"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="124-2013"/>                    
+					<FRBRname value="K 124/2013"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2013-10-17/124-2013/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2013-10-17/124-2013/cg@"/>
+					<FRBRdate date="2013-10-17"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2013-10-17/124-2013/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2013-10-17/124-2013/cg@/!main.akn"/>
+					<FRBRdate date="2013-10-17"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2013-10-17" showAs="Osnovni Sud u Herceg Novom" number="K.br.124/2013"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Herceg Novom"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Herceg Novom"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="lekovic" href="/akn/cg/ontology/person/judges/lekovic" showAs="Leković Branislav"/>
+				<TLCPerson eId="milovic" href="/akn/cg/ontology/person/milovic" showAs="Milović Tereza"/>
+				<TLCPerson eId="sl" href="/akn/cg/ontology/person/sl" showAs="S.L."/>
+				<TLCPerson eId="im" href="/akn/cg/ontology/person/im" showAs="I.M."/>
+				<TLCPerson eId="cs" href="/akn/cg/ontology/person/cs" showAs="Č.S."/>
+				<TLCPerson eId="op" href="/akn/cg/ontology/person/op" showAs="O.P."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">Posl.br.K.124/2013</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE!</p>
+				<p>
+					<ref href="#os">OSNOVNI SUD U HERCEG NOVOM</ref>, po sudiji <judge id="jud01" refersTo="#lekovic">Leković Branislavu</judge>, uz učestvovanje zapisničara <ref href="#milovic">Milović Tereze</ref>, u
+					krivičnom predmetu protiv okrivljenog <party id="p2" refersTo="#sl" as="#Defendant">S.L.</party> zbog dva krivična djela iz <ref id="krivicni_zakonik_cg_kriv_cl_154" href="krivicni_zakonik_cg/krivicni_clan/154/">čl.154 KZ CG</ref>, povodom optužnog
+					predloga <ref href="#odt">ODT Herceg Novi</ref> <ref id="pres_kt_br_167/13" href="/presude/2013-09-02/Kt-br-199-13">Kt.br.199/13</ref> od <date date="2013-09-02">02.09.2013.</ref> godine, nakon održanog glavnog i javnog pretresa
+					dana <date date="2013-10-17">17.10.2013.</date> godine, u prisustvu zamjenika ODT Herceg Novi Samardžić Nikole, okrivljenog S.L.,branioca
+					okrivljenog <lawyer id="lo1" referseTo="im">adv.I.M.</lawyer>, oštećenih <party id="p1" refersTo="#cs" as="#Prosecutor">Č.S.</party>a i <party id="p1_1" refersTo="#op" as="#Prosecutor">O.</party>, donio je i javno objavio sledeću
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Okrivljeni:
+				</p>
+				<p>
+					Okrivljeni <party id="p2" refersTo="#sl" as="#Defendant">S.L.</party>, od L. i majke L. rođenog .... godine u selu V.,Habarovski kraj,Ruska Federacija, stalno
+					nastanjenog u M.-ul.....,sa privremenim boravištem u HN-Đ.,po zanimanju pravniksa mjesečnim primanjem
+					od oko 500 dolara,vlasnik stana u Đ.,živi u vanbračnoj zajednici,bez djece,državljanin Ruske Federacije,
+					neosuđivan.
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIV JE</p>
+				<p>
+					Što je :
+					dana <date date="2013-08-05">05.avgusta 2013.</date>godine oko <time time="19:15:00">19:15</time> časova na stajalištu za trajektni prelaz u Kamenarima,pri svađi mašio
+					opasnog oruđa na način da je prilikom svađe sa radnikom firme "S.G.M." <party id="p1_1" refersTo="#op" as="#Prosecutor">O.P.</party> koji je regulisao ukrcavanje
+					vozila na trajekt,iz pretinca vozila "Mercedes",reg.oznake BR ...,za čijim upravljačem je bio u redu za
+					ukrcaj,izvadio lovački nož dužine sječiva 14 cm nakon čega se nagnuo kroz otvoreni prozor vozila i više puta u
+					pravcu oštećenog <party id="p1_1" refersTo="#op" as="#Prosecutor">O.</party> zamahnuo nožem koji je držao u desnoj ruci,nakon čega je automobilu prišao oštećeni
+					<party id="p1" refersTo="#cs" as="#Prosecutor">Č.S.</party>,takođe radnik firme "S.G.M." i stao pored <party id="p1_1" refersTo="#op" as="#Prosecutor">O.</party> nakon čega se okrivljeni ponovo nagnuo krozb prozor vozila i
+					vičući na oštećene više puta nožem zamahnuo u njihovom pravcu,pri čemu je bio svjestan svoga djela i htio
+					njegovo izvršenje,
+					-čime je izvršio dva krivična djela <ref id="krivicni_zakonik_cg_kriv_cl_154" href="krivicni_zakonik_cg/krivicni_clan/154/">ugrožavanje sigurnosti iz čl.154. Krivičnog zakonika Crne Gore.</ref>
+					pa mu sud, na osnovu <ref id="krivicni_zakonik_cg_kriv_cl_154" href="krivicni_zakonik_cg/krivicni_clan/154/">čl.154 KZ</ref> i primjenom čl. <ref id="krivicni_zakonik_cg_kriv_cl_4" href="krivicni_zakonik_cg/krivicni_clan/4">4</ref>, 
+					<ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">32</ref>, 
+					<ref id="krivicni_zakonik_cg_kriv_cl_39" href="krivicni_zakonik_cg/krivicni_clan/39">39</ref> i 
+					<ref id="krivicni_zakonik_cg_kriv_cl_42" href="krivicni_zakonik_cg/krivicni_clan/42">42 KZ CG</ref> te <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">čl.374</ref>,
+					<ref id="zkp_kriv_cl_229_st_1" href="zkp/krivicni_clan/229/st/1">229.stav 1</ref> i <ref id="zkp_kriv_cl_239_st_2" href="zkp/krivicni_clan/239/st/2">239 st.2 ZKP-a</ref>
+					prethodno utvrđuje za dva krivična djela <ref id="krivicni_zakonik_cg_kriv_cl_154" href="krivicni_zakonik_cg/krivicni_clan/154/">ugrožavanje sigurnosti iz čl.154. Krivičnog zakonika Crne Gore</ref>
+					novčane kazne u iznosima od po 500,00 eura,te okrivljenog na osnovu <ref id="krivicni_zakonik_cg_kriv_cl_48_st_1" href="krivicni_zakonik_cg/krivicni_clan/48/st/1">čl. 48.stav 1.KZ CG</ref>
+				</p>
+				<p style="text-align: center;">OSUĐUJE</p>
+				<p>
+					Na jedinstvenu novčanu kaznu u iznosu od 1,000 eura ( hiljadu) koju je dužan platiti u roku od 3 mjeseca od
+					pravosnažnosti presude, jer će se u protivnom, na osnovu člana <ref id="krivicni_zakonik_cg_kriv_cl_39_st_6" href="krivicni_zakonik_cg/krivicni_clan/39/st/6">39.st. 6. KZ</ref> novčana kazna izvršiti tako što će
+					se za svakih 25 € novčane kazne odrediti jedan dan kazne zatvora.
+					Oštećeni <party id="p1_1" refersTo="#op" as="#Prosecutor">O.P.</ref> i <party id="p1" refersTo="#cs" as="#Prosecutor">Č.S.</party> upućuju se na parnični postupak radi ostvarivanja imovinsko pravnog zahtjeva.
+					Na osnovu <ref id="krivicni_zakonik_cg_kriv_cl_75_st_1" href="krivicni_zakonik_cg/krivicni_clan/75/st/1">čl.75.stav 1.KZ CG</ref> okrivljenom  <party id="p2" refersTo="#sl" as="#Defendant">S.L.</ref>u izriče se mjera bezbjednosti oduzimanja predmeta -lovačkog
+					noža sa natpisom "C.".
+					Okrivljeni se obavezuje da plati troškove krivičnog postupka u iznosu od 50,00 eura u korist budžeta Crne
+					Gore na žiro račun 832-158-14 u roku od 15 dana od pravosnažnosti presude.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

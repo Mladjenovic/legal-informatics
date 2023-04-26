@@ -1,0 +1,286 @@
+<div class="panel-header panel-header-sm">
+</div>
+<html>
+<body>
+<!-- header -->
+<nav class="navbar">
+  <!--
+    <div class="navbar-brand">
+      <button class="navbar-item navbar-item-right">gfdgfdg</button>
+    </div>
+
+  -->
+  <a class="mat-button" (click)="logout()">Logout</a>
+</nav>
+
+<h1>Presude</h1>
+<button class="btn btn-outline-primary" (click)="MakeJudge()">Kreiraj novu presudu</button>
+<div>
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <thead class=" text-primary">
+      <th>
+        Id
+      </th>
+      <th>
+        Sud
+      </th>
+      <th>
+        Poslovni broj
+      </th>
+      <th>
+        Tuzilac
+      </th>
+      <th>
+        Okrivljeni
+      </th>
+      <th>
+        Osudjen
+      </th>
+      <th>
+        Kazna zatvora
+      </th>
+      <th>
+        Kazna novcana
+      </th>
+      <th>
+        Hladno oruzije
+      </th>
+      <th>
+        Sudije
+      </th>
+      <th>
+        Telesne povrede
+      </th>
+      <th>
+        Primenjeni propisi
+      </th>
+      <th>
+        Krivicna dela
+      </th>
+      <th>
+        Prikaz teksta presude
+      </th>
+      </thead>
+      <tbody>
+      <ng-container *ngFor="let presuda of presude">
+        <tr>
+          <td>{{presuda.id}}</td>
+          <td>{{presuda.sud}}</td>
+          <td>{{presuda.poslovniBroj}}</td>
+          <td>{{presuda.tuzilac}}</td>
+          <td>{{presuda.okrivljeni}}</td>
+          <td>{{presuda.osudjen}}</td>
+          <td>{{presuda.kaznaZatvor}}</td>
+          <td>{{presuda.kaznaNovac}}</td>
+          <td>{{presuda.hladnoOruzije}}</td>
+
+          <td>
+            <div ngbDropdown class="d-inline-block">
+              <button class="btn btn-outline-primary" id="dropdownBasic2" ngbDropdownToggle>Sudije</button>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
+                <button ngbDropdownItem (click)="otvoriSudije(openCom, presuda)">Prikazi sudije</button>
+              </div>
+            </div>
+          </td>
+
+          <td>
+            <div ngbDropdown class="d-inline-block">
+              <button class="btn btn-outline-primary" id="dropdownBasic3" ngbDropdownToggle>Telesne povrede</button>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic3">
+                <button ngbDropdownItem (click)="otvoriTelesnePovrede(openCom1, presuda)">Prikazi telesne povrede</button>
+              </div>
+            </div>
+          </td>
+
+          <td>
+            <div ngbDropdown class="d-inline-block">
+              <button class="btn btn-outline-primary" id="dropdownBasic4" ngbDropdownToggle>Primenjeni propisi</button>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic4">
+                <button ngbDropdownItem (click)="otvoriPrimenjenePrepise(openCom2, presuda)">Prikazi primenjene propise</button>
+              </div>
+            </div>
+          </td>
+
+          <td>
+            <div ngbDropdown class="d-inline-block">
+              <button class="btn btn-outline-primary" id="dropdownBasic5" ngbDropdownToggle>Krivicna dela</button>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic5">
+                <button ngbDropdownItem (click)="otvoriKrivicnaDela(openCom3, presuda)">Prikazi krivicna dela</button>
+              </div>
+            </div>
+          </td>
+
+          <td>
+            <div class="d-inline-block">
+              <a [routerLink]="['/sudija/prikazPresude', presuda.id]" class="btn btn-outline-primary" id="dropdownBasic2" mat-raised-button>Prikaz</a>
+            </div>
+          </td>
+
+        </tr>
+      </ng-container>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+<ng-template #openCom let-modal windowClass="modal-dialog">
+  <div class="modal-header">
+    <h4 class="modal-title" class="text-right" id="modal-basic-title3">Sudije presude</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead class=" text-primary">
+          <th>
+            Ime
+          </th>
+          <th>
+            Prezime
+          </th>
+          <th>
+            JMBG
+          </th>
+          <th>
+            Korisnicko ime
+          </th>
+          </thead>
+          <tbody>
+          <ng-container *ngFor="let sudija of sudije">
+            <tr>
+              <td>{{sudija.ime}}</td>
+              <td>{{sudija.prezime}}</td>
+              <td>{{sudija.jmbg}}</td>
+              <td>{{sudija.korisnickoIme}}</td>
+            </tr>
+          </ng-container>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="modal-footer">
+
+  </div>
+</ng-template>
+
+
+<ng-template #openCom1 let-modal windowClass="modal-dialog">
+  <div class="modal-header">
+    <h4 class="modal-title" class="text-right" id="modal-basic-title3">Telesne povrede presude</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead class=" text-primary">
+          <th>
+            Opis
+          </th>
+          </thead>
+          <tbody>
+          <ng-container *ngFor="let telesnaPovreda of telesnePovrede">
+            <tr>
+              <td>{{telesnaPovreda.opis}}</td>
+            </tr>
+          </ng-container>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="modal-footer">
+
+  </div>
+</ng-template>
+
+<ng-template #openCom2 let-modal windowClass="modal-dialog">
+  <div class="modal-header">
+    <h4 class="modal-title" class="text-right" id="modal-basic-title3">Primenjeni propisi presude</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead class=" text-primary">
+          <th>
+            Opis
+          </th>
+          </thead>
+          <tbody>
+          <ng-container *ngFor="let primenjenipropis of primenjeniPropisi">
+            <tr>
+              <td>{{primenjenipropis.opis}}</td>
+            </tr>
+          </ng-container>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="modal-footer">
+
+  </div>
+</ng-template>
+
+
+<ng-template #openCom3 let-modal windowClass="modal-dialog">
+  <div class="modal-header">
+    <h4 class="modal-title" class="text-right" id="modal-basic-title3">Krivicna dela presude</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead class=" text-primary">
+          <th>
+            Naziv
+          </th>
+          <th>
+            Opis
+          </th>
+          </thead>
+          <tbody>
+          <ng-container *ngFor="let krivicnoDelo of krivicnaDela">
+            <tr>
+              <td>{{krivicnoDelo.naziv}}</td>
+              <td>{{krivicnoDelo.opis}}</td>
+            </tr>
+          </ng-container>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="modal-footer">
+
+  </div>
+</ng-template>

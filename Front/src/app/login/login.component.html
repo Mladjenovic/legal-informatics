@@ -1,0 +1,17 @@
+<div class="col-md-12 text-center">
+  <h1>Pravni Sistem - Login Sudija</h1>
+</div>
+
+<div id="loginForm">
+  <!-- Login Form -->
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <input type="text" formControlName="korisnickoIme" class="form-control" id="korisnickoIme" name="korisnickoIme" placeholder="Korisničko ime">
+    <input type="password" formControlName="lozinka" class="form-control" id="lozinka" name="lozinka" placeholder="Lozinka">
+    <input type="submit" class="btn btn-primary"  value="Uloguj se">
+  </form>
+
+  <!-- Remind Passowrd -->
+  <div id="formFooter">
+    <a class="underlineHover" href="/signup">Registruj se ovde!</a>
+  </div>
+</div>

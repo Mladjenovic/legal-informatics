@@ -1,0 +1,90 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2012-12-07/146-12!main"/>
+					<FRBRuri value="/akn/cg/judgment/2012-12-07/146-12"/>
+					<FRBRdate date="2012-12-07"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="146-12"/>                    
+					<FRBRname value="Kv 146/2012"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2012-12-07/146-12/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2012-12-07/146-12/cg@"/>
+					<FRBRdate date="2012-12-07"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2012-12-07/146-12/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2012-12-07/146-12/cg@/!main.akn"/>
+					<FRBRdate date="2012-12-07"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2012-12-07" showAs="Osnovni Sud u Rožajama" number="Kv 146/2012"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Rožajama"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Rožajima"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="zekic" href="/akn/cg/ontology/person/judges/zekic" showAs="Milosava Zekić"/>
+				<TLCPerson eId="bulatovic" href="/akn/cg/ontology/person/judges/bulatovic" showAs="Slavica Bulatović"/>
+				<TLCPerson eId="zekic" href="/akn/cg/ontology/person/judges/zekic" showAs="Milosava Zekić"/>
+				<TLCPerson eId="mujevic" href="/akn/cg/ontology/person/mujevic" showAs="Mirsad Mujević"/>
+				<TLCPerson eId="luboder" href="/akn/cg/ontology/person/luboder" showAs="Aida Luboder"/>
+				<TLCPerson eId="dosljak" href="/akn/cg/ontology/person/dosljak" showAs="Došljak Ivana"/>
+				<TLCPerson eId="ak" href="/akn/cg/ontology/person/ak" showAs="A. K."/>
+				<TLCPerson eId="di" href="/akn/cg/ontology/person/di" showAs="D. I."/>
+				<TLCPerson eId="em" href="/akn/cg/ontology/person/em" showAs="E. M."/>
+				<TLCPerson eId="hb" href="/akn/cg/ontology/person/hb" showAs="H. B."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">Kv.br.146/12</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#os">OSNOVNI SUD U ROŽAJAMA</ref>, u vijeću sastavljenom od sudija <judge id="jud01" refersTo="#zekic">Milosava Zekića</judge>, kao predsjednika vijeća, i
+					<judge id="jud01" refersTo="#bulatovic">Slavice Bulatović</judge> i <judge id="jud01" refersTo="#mujevic">Mirsada Mujevića</judge>, kao članova vijeća, sa zapisničarem <ref href="#luboder">Aidom Luboder</ref>, u krivičnom
+					predmetu osudjenog <party id="p2" refersTo="#ak" as="#Defendant">A. K.</party> iz Rožaja, zbog <ref id="krivicni_zakonik_cg_kriv_cl_153" href="krivicni_zakonik_cg/krivicni_clan/153">krivičnih djela učestvovanje u tuči iz čl. 153. Krivičnog zakonika</ref> ,
+					i <ref id="krivicni_zakonik_cg_kriv_cl_168_st_2_st_1" href="krivicni_zakonik_cg/krivicni_clan/168/st/2/st/1">ugrožavanje sigurnosti iz čl. 168. st. 2. u vezi st. 1. Krivičnog zakonika</ref>, rješavajući po zahtjevu <party id="p2" refersTo="#ak" as="#Defendant">osudjenog</party>
+					za odmjeravanje jedinstvene kazne, po predhodno pribavljenom mišljenju <ref href="#odt">ODT-a</ref> iz Rožaja u sjednici
+					vijeća održanoj dana <date date="2012-12-07">07.12. 2012.</date> godine, d o n i o j e
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					P r e i n a č a v a j u s e u pogledu odluke o kazni pravnosnažne presude <ref href="#os">Osnovnog suda u Rožajama</ref> <ref id="pres_k_br_161/10" href="/presude/2012-01-10/K-br-161-10">K. br.
+					161/10</ref> od <date date="2012-01-10">10.01.2012.</date>g. godine, kojom je <party id="p2" refersTo="#ak" as="#Defendant">A. K.</party> oglašen krivim zbog <ref id="krivicni_zakonik_cg_kriv_cl_153_st_1" href="krivicni_zakonik_cg/krivicni_clan/153/st/1">krivičnog djela učestvovanje u tuči iz čl.
+					153. st. 1. Krivičnog zakonika</ref>, i osudjen na kaznu zatvora u trajanju od 4 (četiri ) mjeseca, u koju kaznu mu
+					se ima uračunati vrijeme provedeno u pritvoru od <date date="2010-05-24">24.05.2010.</date>g.do <date date="2010-05-26">26.05.2010.g. i <ref id="pres_k_br_191/11" href="/presude/2011-11-17/K-br-191-11">K. br. 191/11</ref> od
+					<date date="2010-05-24">17.11.2011.</date> godine, kojom je <party id="p2" refersTo="#ak" as="#Defendant">A. K.</party> oglašen krivim zbog <ref id="krivicni_zakonik_cg_kriv_cl_168_st_2_st_1" href="krivicni_zakonik_cg/krivicni_clan/168/st/2/st/1">krivičnog djela ugrožavanje sigurnosti iz čl. 168. st.
+					2. u vezi st. 1. Krivičnog zakonika</ref> i osudjen na kaznu zatvora u trajanju od 30 dana , tako što <ref href="#os">Osnovni sud u
+					Rožajama</ref> uzimajući ranije izrečene kazne kao utvrdjene primjenom čl. <ref id="krivicni_zakonik_cg_kriv_cl_48" href="krivicni_zakonik_cg/krivicni_clan/48">48.</ref> i <ref id="krivicni_zakonik_cg_kriv_cl_51" href="krivicni_zakonik_cg/krivicni_clan/51">51.</ref> Krivičnog zakoniak i čl.
+					<ref id="zkp_kriv_cl_421_st_1_tac_1" href="zkp/krivicni_clan/421/st/1/tac/1">421. st.1. tač.1.</ref> i <ref id="zkp_kriv_cl_421_st_5" href="zkp/krivicni_clan/421/st/5">st.5.</ref> Zakonika o krivičnom postupku, <party id="p2" refersTo="#ak" as="#Defendant">A. K.</party>
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">O S U D J U J E</p>
+				<p>
+					NA JEDINSTVENU KAZNU ZATVORA u trajanju od 140 (sto četrdeset) dana, u koju kaznu mu se ima
+					uračunati vrijeme provedeno u pritvoru od <date date="2010-05-24">24.05.2010.</date> .do <date date="2010-05-26">26.05.2010.</date>g. i vrijeme provedeno na
+					izdržavanju kazne zatvora od <date date="2012-10-31">31.10.2012.</date>g.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

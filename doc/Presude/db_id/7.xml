@@ -1,0 +1,116 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2013-12-23/338-13!main"/>
+					<FRBRuri value="/akn/cg/judgment/2013-12-23/338-13"/>
+					<FRBRdate date="2013-12-23"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="338-13"/>                    
+					<FRBRname value="K 338/13"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2013-12-23/338-13/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2013-12-23/338-13/cg@"/>
+					<FRBRdate date="2013-12-23"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2013-12-23/338-13/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2013-12-23/338-13/cg@/!main.akn"/>
+					<FRBRdate date="2013-12-23"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2013-12-23" showAs="Osnovni Sud u Nikšiću" number="K 338/13"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Nikšiću"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Nikšiću"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="babovic" href="/akn/cg/ontology/person/judges/babovic" showAs="Dragan Babović"/>
+				<TLCPerson eId="kristof" href="/akn/cg/ontology/person/kristof" showAs="Stanka Krištof"/>
+				<TLCPerson eId="micunovic" href="/akn/cg/ontology/person/micunovic" showAs="Mićunović Vjera"/>
+				<TLCPerson eId="djf" href="/akn/cg/ontology/person/djf" showAs="Đ.F."/>
+				<TLCPerson eId="ka" href="/akn/cg/ontology/person/ka" showAs="K.A."/>
+				<TLCPerson eId="tm" href="/akn/cg/ontology/person/tm" showAs="T.M."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">Posl.br.K. 338/13</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: left;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#os">OSNOVNI SUD U NIKŠIĆU,</ref>, kao prvostepeni krivični po sudiji <judge id="jud01" refersTo="#babovic">Babović Draganu</judge> uz sudjelovanje 
+					<ref href="#kristof">Krištof Stanke</ref>, kao zapisničara u krivičnom predmetu protiv okrivljenog <party id="p1" refersTo="#djf" as="#Defendant">DJ. F.A</party>, zbog <ref id="krivicni_zakonik_cg_kriv_cl_152_st_2" href="krivicni_zakonik_cg/krivicni_clan/152/st/2">dva krivična djela laka tjelesna povreda iz
+					čl.152.st.2. u vezi st.1. KZ</ref>, po optužnom predlogu <ref href="#odt">ODT-a Nikšić</ref> 
+					Kt.br.30/13 od <date date="2013-07-11">11.07.2013</date>godine, nakon dovršenog glavnog i javnog pretresa, donio je dana <date date="2013-12-23">23.12.2013.</date> godine  u prisustvu okrivljenog i
+					zamjenika ODT-a iz Nikšića <ref href="#micunovic">Mićunović Vjere</ref>, donio je i istog dana javno objavio
+				</p>
+				<p style="text-align: left;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Okrivljeni:
+					<party id="p1" refersTo="#djf" as="#Defendant">DJ. F.</party> od oca V i majke Z rodjene Š rodjenog <date date="1992-07-27">27.07.1992.</date> godine u N nastanjen u N – R br.x, državljanin CG,
+					neoženjen, pismen, završio srednju školu, lošeg imovnog stanja, ranije neosudjivan.
+
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIV JE</p>
+				<p>
+					Što je:
+					<p>
+						Dana <date date="2012-12-25">25.12.2012.</date> godine u Nikšiću u ul. xxxxx ispred kafe bara »G «, svjestan svog djela i htio njegovo
+						izvršenje, metalnom šipkom dužine oko 50 cm i debljine oko 1 cm, kao sredstvom podobnim da tijelo
+						teško povrijedi ili zdravlje teško naruši, više puta udario u predjelu glave oštećenog maloljetnog 
+						<party id="p2" refersTo="#ka" as="#Plaintiff1">K. A.a</party>, a
+						oštećenog <party id="p3" refersTo="#tm" as="#Plaintiff2">T. M.a</party> udariou predjelu lijeve noge, kojom prilikom je oštećenim <party id="p2" refersTo="#ka" as="#Plaintiff1">K. A.u</party> i <party id="p3" refersTo="#tm" as="#Plaintiff2">T. M.u</party> nanio lake
+						tjelesne povrede i to: oštećenom <party id="p2" refersTo="#ka" as="#Plaintiff1">K. A.u</party> u vidu razderne rane u tjemenom predjelu poglavine sa lijeve
+						strane dužine oko 5 cm, a oštećenom <party id="p3" refersTo="#tm" as="#Plaintiff2">T. M.u</party> u vidu nagnječenja u predjelu lijeve nadkoljenice,
+					</p>
+					<p>
+						čime je počinio <ref id="krivicni_zakonik_cg_kriv_cl_152_st_2" href="krivicni_zakonik_cg/krivicni_clan/152/st/2">dva krivična djela laka tjelesna povreda iz
+						čl.152.st.2. u vezi st.1. Krivičnog zakonika</ref>.
+					</p>
+					<p>
+						-pa sud okrivljenom primjenom citiranih zakonskih odredbi kao i odredbi iz čl.
+						<ref id="krivicni_zakonik_cg_kriv_cl_4_st_2" href="krivicni_zakonik_cg/krivicni_clan/4/st/2">4.st.2.</ref>
+						<ref id="krivicni_zakonik_cg_kriv_cl_42" href="krivicni_zakonik_cg/krivicni_clan/42">42.</ref>,
+						<ref id="krivicni_zakonik_cg_kriv_cl_52" href="krivicni_zakonik_cg/krivicni_clan/52">52.</ref>,
+						<ref id="krivicni_zakonik_cg_kriv_cl_53" href="krivicni_zakonik_cg/krivicni_clan/53">53.</ref> i
+						<ref id="krivicni_zakonik_cg_kriv_cl_54" href="krivicni_zakonik_cg/krivicni_clan/54">54.</ref>
+						Krivičnog zakonika‚ za svako <ref id="krivicni_zakonik_cg_kriv_cl_152_st_2" href="krivicni_zakonik_cg/krivicni_clan/152/st/2">krivično djelo laka tjelesna povreda iz
+						čl.152.st.2. u vezi st.1. Krivičnog zakonika</ref> okrivljenom <party id="p1" refersTo="#djf" as="#Defendant">DJ. F.u</party> prethodno utvrdjuje kazne zatvora u trajanju od po 2(dva) mjeseca, pa zatim
+						primjenom čl.<ref id="krivicni_zakonik_cg_kriv_cl_48" href="krivicni_zakonik_cg/krivicni_clan/48">48</ref> Krivičnog zakonika i <ref id="zkp_kriv_cl_226" href="zkp/krivicni_clan/226">čl.226.</ref>, 
+						<ref id="zkp_kriv_cl_229" href="zkp/krivicni_clan/229">229.</ref> i <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">čl.374.</ref> Zakonika o krivičnom postupku izriče
+					</p>
+					
+					
+					<p style="text-align: center;">USLOVNU OSUDU</p>
+					<p>
+						Kojom mu utvrdjuje jedinstvenu kaznu zatvora u trajanju od 3 (tri) mjeseca i istovremeno odredjuje da se
+						ova kazna neće izvršiti ako okrivljeni u roku od 1(jedne) godine po pravosnažnosti presude ne učini novo
+						krivično djelo.
+					</p>
+					<p>
+						Okrivljeni je dužan u roku od 15 dana, po prijemu presude , plati iznos od 118,oo eura od čega 88,oo € na
+						ime nagrade vještaku medicinske struke B V i 30,oo€ na ime paušala, kao dijela troškova postupka, na žiro
+						račun Osnovnog suda br. 832-152-32.
+					</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

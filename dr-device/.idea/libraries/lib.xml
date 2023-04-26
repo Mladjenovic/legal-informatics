@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ARP2-alpha-1/lib/icu4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ARP2-alpha-1/lib/arp2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ARP2-alpha-1/lib/xercesImpl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

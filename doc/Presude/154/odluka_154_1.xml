@@ -1,0 +1,95 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2012-04-05/53-2012!main"/>
+					<FRBRuri value="/akn/cg/judgment/2012-04-05/53-2012"/>
+					<FRBRdate date="2012-04-05"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="53-2012"/>                    
+					<FRBRname value="K 53/2012"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2012-04-05/53-2012/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2012-04-05/53-2012/cg@"/>
+					<FRBRdate date="2012-04-05"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2012-04-05/53-2012/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2012-04-05/53-2012/cg@/!main.akn"/>
+					<FRBRdate date="2012-04-05"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2012-04-05" showAs="Osnovni Sud u Herceg Novom" number="K 53-2012"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Herceg Novom"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Hercev Novom"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="lekovic" href="/akn/cg/ontology/person/judges/lekovic" showAs="Leković Branislav"/>
+				<TLCPerson eId="milovic" href="/akn/cg/ontology/person/milovic" showAs="Milović Tereza"/>
+				<TLCPerson eId="rk" href="/akn/cg/ontology/person/rk" showAs="R.K."/>
+				<TLCPerson eId="samardzic" href="/akn/cg/ontology/person/samardzic" showAs="Samardžić Nikola"/>
+				<TLCPerson eId="gs" href="/akn/cg/ontology/person/gs" showAs="G.S."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">Posl.br.K.53/2012</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE!</p>
+				<p>
+					<ref href="#os">OSNOVNI SUD U HERCEG NOVOM</ref>, po sudiji <judge id="jud01" refersTo="#lekovic">Leković Branislavu</judge>, uz učestvovanje zapisničara <ref href="#milovic">Milović
+					Tereze</ref>, u krivičnom predmetu protiv okrivljenog <party id="p2" refersTo="#rk" as="#Defendant">R.K.</ref>, zbog <ref id="krivicni_zakonik_cg_kriv_cl_154_st_1" href="krivicni_zakonik_cg/krivicni_clan/154/st/1">krivičnog djela iz čl. 154 st.1 KZ</ref>, povodom
+					optužnog predloga <ref href="#odt">ODT Herceg Novi</ref> <ref id="pres_kt_br_24/2012" href="/presude/2012-03-09/Kt-br-24-12">Kt.br.24/2012</ref> od <date date="2012-03-09">9.03.2012.</date> godine, nakon održanog glavnog i
+					javnog pretresa dana <date date="2012-04-05">5.04.2012.</ref> godine, u prisustvu okrivljenog <party id="p2" refersTo="#rk" as="#Defendant">R.K.</ref>, zamjenika <ref href="#odt">ODT Herceg Novi</ref>
+					<ref href="#samardzic">Samardžić Nikole</ref> i oštećene <party id="p1" refersTo="#gs" as="#Prosecutor">G.S</party>, donio je i javno objavio slijedeću
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Okrivljeni: <party id="p2" refersTo="#rk" as="#Defendant">R.K.</party>, JMBG... ,od oca J i majke B, rođene P rođen .... godine u K., stalno nastanjen u HN-P..., sa
+					završenom SSS – trgovac, nezaposlen,bez nepokretnosti, neoženjen državljanin Crne Gore, neosuđivan.
+
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIV JE</p>
+				<p>
+					Dana <date date="2012-01-29">29 januara 2012</ref> godine oko <time time="14:00:00">14</ref> časova u prodavnici firme „N.“ u naselju G. u I.,pri svađi mašio se
+					opasnog oruđa na način da je prilikom svađe sa koleginicom <party id="p1" refersTo="#gs" as="#Prosecutor">G.S</party> sa mesarskog dijela radnje uzeo nož sa
+					plastičnom drškom dužine sječiva 25cm a zatim oštećenu uhvatio za kosu iznad čela,pritisnuo je uz zid i
+					zaprijetio joj da će je zaklati,
+					-čime je izvršio <ref id="krivicni_zakonik_cg_kriv_cl_154_st_1" href="krivicni_zakonik_cg/krivicni_clan/154/st/1">krivično djelo ugrožavanje opasnim oruđem pri tuči ili svađi iz čl.154.stav 1 Krivičnog
+					zakonika</ref> .
+					pa mu na osnovu <ref id="krivicni_zakonik_cg_kriv_cl_154_st_1" href="krivicni_zakonik_cg/krivicni_clan/154/st/1">čl. 154.stav 1 KZ</ref> i primjenom <ref id="krivicni_zakonik_cg_kriv_cl_4" href="krivicni_zakonik_cg/krivicni_clan/4">čl.4</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">32</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_36" href="krivicni_zakonik_cg/krivicni_clan/36">,36,
+					<ref id="krivicni_zakonik_cg_kriv_cl_42" href="krivicni_zakonik_cg/krivicni_clan/42">42,</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_52" href="krivicni_zakonik_cg/krivicni_clan/52">52</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_53" href="krivicni_zakonik_cg/krivicni_clan/53">,53</ref> i 
+					<ref id="krivicni_zakonik_cg_kriv_cl_54" href="krivicni_zakonik_cg/krivicni_clan/54">54 KZ</ref> ,izriče
+				</p>
+				<p style="text-align: center;">USLOVNU OSUDU</p>
+				<p>
+					Kojom mu utvrđuje kazna zatvora u trajanju od 3 (tri) mjeseca i istovremeno određuje da se ista neće
+					izvršiti ako za vrijeme od 1 (jedne) godine ne izvrši novo krivično djelo.
+					Na osnovu  <ref id="zkp_kriv_cl_229_st_4" href="zkp/krivicni_clan/229/st/4">čl.229.stav 4. ZKP-a</ref> okrivljeni se oslobađa obaveze plaćanja troškova krivičnog postupka.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

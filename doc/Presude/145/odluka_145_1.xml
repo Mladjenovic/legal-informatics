@@ -1,0 +1,123 @@
+<!--digni me pao sam plus cekic -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2014-10-24/25-14!main"/>
+					<FRBRuri value="/akn/cg/judgment/2014-10-24/25-14"/>
+					<FRBRdate date="2014-10-24"/>
+					<FRBRauthor href="#vs" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="25-14"/>                    
+					<FRBRname value="K 25/2014"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2014-10-24/25-14/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2014-10-24/25-14/cg@"/>
+					<FRBRdate date="2014-10-24"/>
+					<FRBRauthor href="#vs" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2014-10-24/25-14/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2014-10-24/25-14/cg@/!main.akn"/>
+					<FRBRdate date="2014-10-24"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="vs" date="2014-10-24" showAs="Viši Sud u Bijelom Polju" number="K 25/2014"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="vs" href="/akn/cg/ontology/organization/vs" showAs="Viši Sud u Bijelom Polju"/>
+				<TLCOrganization eId="vdt" href="/akn/cg/ontology/organization/vdt" showAs="Više državno tužilaštvo"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="boskovic" href="/akn/cg/ontology/person/judges/boskovic" showAs="Bošković Vukomir"/>
+				<TLCPerson eId="djesevic" href="/akn/cg/ontology/person/judges/djesevic" showAs="Dješević Šefkija"/>
+				<TLCPerson eId="varagic" href="/akn/cg/ontology/person/judges/varagic" showAs="Varagić Jokana"/>
+				<TLCPerson eId="duborija" href="/akn/cg/ontology/person/duborija" showAs="Duborija Radmila"/>
+				<TLCPerson eId="lr" href="/akn/cg/ontology/person/lr" showAs="L. R."/>
+				<TLCPerson eId="aa" href="/akn/cg/ontology/person/aa" showAs="A. A."/>
+				<TLCPerson eId="is" href="/akn/cg/ontology/person/is" showAs="I. S."/>
+				<TLCPerson eId="ik" href="/akn/cg/ontology/person/ik" showAs="I. K."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">K.br.25/14</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#vs"> Viši sud u Bijelom Polju </ref> u vijeću sastavljenom od sudije <judge id="jud01" refersTo="#boskovic">Bošković Vukomira</judge>, kao predsjednika vijeća,
+					stalnih sudija <judge id="jud02" refersTo="#djesevic">Dješević Šefkije</judge> i <judge id="jud03" refersTo="#varagic">Varagić Jokana</judge>,
+					kao članova vijeća, uz učešće namještenika suda <ref href="#duborija"> Duborija Radmile</ref>, kao zapisničara,
+					u krivičnom predmetu optuženog <party id="p2" refersTo="#lr" as="#Defendant">L. R.</party> iz A,
+					zbog <ref id="krivicni_zakonik_cg_kriv_cl_143" href="krivicni_zakonik_cg/krivicni_clan/143">krivičnog djela ubistvo iz čl. 143 Krivičnog zakonika Crne Gore</ref>, po optužnici <party id="p1" refersTo="#vdt" as="#Prosecutor">Višeg državnog tužilaštva</party>
+					<ref id="pres_kt_br_28/14" href="/presude/2014-05-09/Kt-br-28-14">Kt.br.28/14</ref> od <date date="2014-05-09">09.05.2014</date> godine, nakon održanog usmenog, javnog i glavnog pretresa 
+					u prisustvu zamjenika Višeg državog tužioca M. V, optuženog <party id="p2" refersTo="#lr" as="#Defendant">L. R</party>, njegovog branioca <lawyer id="lo1" referseTo="aa">A.A</lawyer>, donio je <date date="2014-10-24">24.10.2014</date>
+					godine, a javno objavio <date date="2014-04-11">04.11.2014</date> godine
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Optuženi <party id="p2" refersTo="#lr" as="#Defendant">L.R.</party>, JMBG ....., od oca M. i majke A, rođene B, rođen .... godine, u A, sa stalnim boravkom u
+					mjestu rođenja - O. b, državljanin Crne Gore, neoženjen, nezaposlen, lošeg imovnog stanja, osuđivan,
+					nalazi se u pritvoru od <date date="2014-02-22">22.02.2014</date> godine.
+
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIV JE</p>
+				<p>
+					Što je:
+					Dana, <date date="2014-02-22">22.02.2014</date> godine, oko <time time="16:30:00">16,30</time> h. u ugostiteljskom objektu „B“ lociranom u ul. B. D, bb, u A, svjestan
+					svog djela i htio je njegovo izvršenje, lišio života na mah, doveden bez svoje krivice u stanje jake
+					razdraženosti, sada pok. <party id="p1_1" refersTo="#is" as="#Prosecutor">I. S.</party> iz A, na način što je nakon što ga je sada pok. I. bez ikakvog razloga dva puta
+					udario stisnutom pesnicom u predjelu glave, od kojih udaraca je pao, nakon čega je ustao, pošao do
+					izlaznih vrata gdje mu se nalazila torba sa alatom i iz torbe uzeo čekić, prišao do sada pok. I, koji je u tom
+					momentu sjedio za stolom i više puta ga tim čekićem udario u predjelu glave, nanijevši mu teške tjelesne
+					povrede opasne po život u vidu: ovalnog otvora neravnih ivica i strana promjera oko 3,1x2,6 cm. u predjelu
+					srednje trećine desne tjemene kosti neposredno uz srednju liniju glave, ovalnog otvora ravnih ivica i
+					strana osim u predjelu donjeg poluobima gdje je dužina oko 2 cm. neravan ukupnog promjera oko 3,0x2,8
+					cm. u predjelu zadnje trećine desne tjemene kosti, od kojeg otvora se nadolje pruža potpuni pukotinski
+					<ref href="#vs">Viši Sud u Bijelom Polju</ref>
+					<ref id="pres_k_br_25/14" href="/presude/2014-10-24/K-br-25-14">K 25/2014</ref>
+					<date date="2014-10-24">24. Oktobar 2014</date>
+					prelom u dužini od oko 8 cm. do zadnje strane piramide desne slepoočne kosti, zbog kojih preloma je
+					došlo do oštećenja po život važnih moždanih centara – tkiva poglavine u desnom tjemenom predjelu,
+					desnom sljepoočno tjemenom predjelu, desnoj lobanjskoj jami i tkiva velikog mozga u predjelu vrha
+					sredine desnog tjemenog režnja, usled kojih povreda je kod istog nastupila smrt dana <date date="2014-02-04">02.04.2014</date> godine,
+					u Opštoj bolnici u B,
+					- Čime je izvršio <ref id="kriv_cl_145" href="/krivicni_clan/145"> krivično djelo ubistvo na mah iz čl. 145 Krivičnog zakonika Crne Gore</ref>,
+					Pa ga sud primjenom tog zakonskog propisa i čl. <ref id="krivicni_zakonik_cg_kriv_cl_14" href="krivicni_zakonik_cg/krivicni_clan/14">14</ref>, 
+					<ref id="krivicni_zakonik_cg_kriv_cl_15" href="krivicni_zakonik_cg/krivicni_clan/15">15</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">32</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_36" href="krivicni_zakonik_cg/krivicni_clan/36">36</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_42" href="krivicni_zakonik_cg/krivicni_clan/42">42</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_51" href="krivicni_zakonik_cg/krivicni_clan/51">51</ref> Kz i čl. 
+					<ref id="zkp_kriv_cl_226" href="zkp/krivicni_clan/226">226</ref>,
+					<ref id="zkp_kriv_cl_227" href="zkp/krivicni_clan/227">227</ref>,
+					<ref id="zkp_kriv_cl_239" href="zkp/krivicni_clan/239">239</ref> i 
+					<ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">374 ZKP-a Crne Gore,
+				</p>
+				<p style="text-align: center;">OSUĐUJE</p>
+				<p>
+					Na kaznu zatvora u trajanju od 5 (pet) godina, u koju kaznu mu se ima uračunati vrijeme provedeno u
+					pritvoru od <date date="2014-02-22">22.02.2014</date> godine, pa nadalje.
+					Optuženi se obavezuje da na ime paušala plati iznos od 50,00 €, u korist Budžeta Crne Gore, na žiro račun
+					br. 530-7114-98, u roku od 15 dana po pravnosnažnosti presude pod prijetnjom prinudnog izvršenja.
+					O troškovima postupka biće odlučeno posebnim rješenjem kada budu pribavljeni potpuniji podaci.
+					Predstavnik oštećene porodice sada pok. <party id="p1_1" refersTo="#is" as="#Prosecutor">I. S</party>, njegova sestra <ref href="#ik">I. K</ref>, se radi ostvarivanja imovinsko-pravnog
+					zahtjeva upućuje na parnicu.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

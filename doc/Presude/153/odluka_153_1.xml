@@ -1,0 +1,107 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2020-08-17/86-20!main"/>
+					<FRBRuri value="/akn/cg/judgment/2020-08-17/86-20"/>
+					<FRBRdate date="2020-08-17"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="86-20"/>                    
+					<FRBRname value="K 86/2020"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2020-08-17/86-20/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2020-08-17/86-20/cg@"/>
+					<FRBRdate date="2020-08-17"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2020-08-17/86-20/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2020-08-17/86-20/cg@/!main.akn"/>
+					<FRBRdate date="2020-08-17"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2020-08-17" showAs="Osnovni Sud u Rožajama" number="K 86/2020"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Rožajama"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Rožajima"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="camic" href="/akn/cg/ontology/person/judges/camic" showAs="Camić Zahit"/>
+				<TLCPerson eId="burdzovic" href="/akn/cg/ontology/person/burdzovic" showAs="Adisom Burdžović"/>
+				<TLCPerson eId="ka" href="/akn/cg/ontology/person/ka" showAs="K.A."/>
+				<TLCPerson eId="dosljak" href="/akn/cg/ontology/person/dosljak" showAs="Došljak Ivana"/>
+				<TLCPerson eId="dr" href="/akn/cg/ontology/person/dr" showAs="D. R."/>
+				<TLCPerson eId="di" href="/akn/cg/ontology/person/di" showAs="D. I."/>
+				<TLCPerson eId="em" href="/akn/cg/ontology/person/em" showAs="E. M."/>
+				<TLCPerson eId="hb" href="/akn/cg/ontology/person/hb" showAs="H. B."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">K.br.86/20</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#os">OSNOVNI SUD U ROŽAJAMA</ref> i to Predsjednik suda <judge id="jud01" refersTo="#camic">Camić Zahit</judge>, kao sudija pojedinac, sa zapisničarem
+					<ref href="#burdzovic">Adisom Burdžović</ref>, odlučujući po optužnom predlogu <ref href="#odt">Osnovnog državnog tužilaštva iz Rožaja</ref> 
+					<ref id="pres_kt_br_93/20" href="/presude/2020-07-01/Kt-br-93-20">Kt.br. 93/20.</ref>
+					od <date date="2020-07-01">01. jula 2020.</date>g, protiv okrivljenog <party id="p2" refersTo="#ka" as="#Defendant">K.A.</party> iz R., zbog <ref id="krivicni_zakonik_cg_kriv_cl_153" href="krivicni_zakonik_cg/krivicni_clan/153">krivičnog djela učestovanje u tuči iz čl. 153. Krivičnog
+					Zakonika Crne Gore</ref>, nakon održanog glavnog i javnog pretresa u prisustvu Državnog Tužioca <party id="p1" refersTo="#dosljak" as="#Prosecutor">Došljak
+					Ivana</party> iz Rožaja, oštećenog <party id="p1_1" refersTo="#dr" as="#Plaintiff">D. R.</party> iz R., i njegovog oca <ref href="#di">D.I.</ref> iz Rožaja, i <party id="p2" refersTo="#ka" as="#Defendant">okrivljenog</party>, dana <date date="2020-08-17">17.8.2020.</date>g. donio je i
+					javno objavio,
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Okrivljeni: <party id="p2" refersTo="#ka" as="#Defendant">K. A.</party>JMB ... , od oca S. i majke S., rodj. K., rodjen ... . godine, u R., gdje i živi, drž. CG, razumije
+					crnogorski jezik, koji mu je i maternji jezik, pismen, učenik četvrtog razreda SSŠ, nezapošljen, neoženjen,
+					siromašnog imovnog stanja, neosudjivan.
+
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIV JE</p>
+				<p>
+					Što je:
+					dana <date date="2020-05-03">03.5.2020.</date> godine, oko <time time="21:00:00">21,00</time>H, u naselju Carine, opština Rožaje, u uračunljivom stanju, svjestan svog
+					djela čije je izvršenje htio, iako je znao da je njegovo djelo zabranjeno, učestvovao u tuči u kojoj je teško
+					tjelesno povrijedjen maloljetni <party id="p1_1" refersTo="#dr" as="#Prosecutor">R. D.</party>, na način što je prišao do <party id="p1_1" refersTo="#dr" as="#Prosecutor">R.</party>i sa ledja ga obgrlio rukama oko grudi, a
+					zatim ga desnom nogom udario po nogama i oborio na asvaltnu podlogu, nakon čega su do <party id="p1_1" refersTo="#dr" as="#Prosecutor">R.</party> prišli
+					maloljetni <ref href="#em">E. M.</ref>i <ref href="#hb">H.B.</ref>, koji su ga udarili palicama u predjelu lijevog ramena i nanijeli mu tešku tjelesnu
+					povredu u vidu oguljotine i otoka u predjelu spoljašnje polovine lijeve ključne kosti praćene prelomom
+					kosti,
+					-čime je izvršio <ref id="krivicni_zakonik_cg_kriv_cl_153" href="krivicni_zakonik_cg/krivicni_clan/153">krivično djelo učestovanje u tuči iz čl. 153. Krivičnog Zakonika Crne Gore.</ref>
+					Pa mu sud na osnovu pomenutih zakonskih propisa, primjenom čl. <ref id="krivicni_zakonik_cg_kriv_cl_3" href="krivicni_zakonik_cg/krivicni_clan/3">3.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_4" href="krivicni_zakonik_cg/krivicni_clan/4">4.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_13" href="krivicni_zakonik_cg/krivicni_clan/13">13.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_15" href="krivicni_zakonik_cg/krivicni_clan/15">15.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">32.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_36" href="krivicni_zakonik_cg/krivicni_clan/36">36.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_52" href="krivicni_zakonik_cg/krivicni_clan/52">52.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_53" href="krivicni_zakonik_cg/krivicni_clan/53">53.</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_54" href="krivicni_zakonik_cg/krivicni_clan/54">54.</ref> Krivičnog
+					Zakonika Crne Gore,<ref id="zkp_kriv_cl_229_st_4" href="zkp/krivicni_clan/229/st/4">čl. 229. st.4.</ref> i <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">čl. 374.</ref> Zakonika o Krivičnom Postupku i z r i č e
+				</p>
+				<p style="text-align: center;">USLOVNU OSUDU</p>
+				<p>
+					Kojom mu utvrdjuje kaznu zatvora u trajanju od 3 (tri) mjeseca i istovremeno odredjuje da se ista neće
+					izvršiti ukoliko osudjeni u roku od 1 (jedne) godine ne izvrši novo krivično djelo.
+					Troškova krivičnog postupka – paušala se oslobadja usled slabog imovnog stanja.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

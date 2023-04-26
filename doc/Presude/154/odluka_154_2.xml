@@ -1,0 +1,121 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2013-09-19/136-2013!main"/>
+					<FRBRuri value="/akn/cg/judgment/2013-09-19/136-2013"/>
+					<FRBRdate date="2013-09-19"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="136-2013"/>                    
+					<FRBRname value="K 136/2013"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2013-09-19/136-2013/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2013-09-19/136-2013/cg@"/>
+					<FRBRdate date="2013-09-19"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2013-09-19/136-2013/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2013-09-19/136-2013/cg@/!main.akn"/>
+					<FRBRdate date="2013-09-19"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2013-09-19" showAs="Osnovni Sud u Rožajama" number="K.br.136/13"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Rožajama"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Rožajama"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="camic" href="/akn/cg/ontology/person/judges/camic" showAs="Camić Zahit"/>
+				<TLCPerson eId="muric" href="/akn/cg/ontology/person/muric" showAs="Zilh Murić"/>
+				<TLCPerson eId="rk" href="/akn/cg/ontology/person/rk" showAs="R.K."/>
+				<TLCPerson eId="sn" href="/akn/cg/ontology/person/sn" showAs="S.N."/>
+				<TLCPerson eId="selmanovic" href="/akn/cg/ontology/person/selmanovic" showAs="Armina Selmanović"/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">Posl.br.K.136/2013</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE!</p>
+				<p>
+					<ref href="#os">OSNOVNI SUD U ROŽAJAMA</ref> i to Predsjednik suda <judge id="jud01" refersTo="#camic">Camić Zahit</judge>, kao sudija pojedinac, sa zapisničarem
+					<ref href="#muric">Zilhom Murić</ref>, odlučujući po optužnom predlogu <ref href="#odt">Osnovnog Državnog Tužilaštva iz Rožaja</ref> <ref id="pres_kt_br_167/13" href="/presude/2013-08-30/Kt-br-167-13">Kt.br.167/13.</ref> od
+					<date date="2013-08-30">30.8.2013.</date>godine, protiv okrivljenih <party id="p2" refersTo="#rk" as="#Defendant">R. K.</party> i <party id="p2_1" refersTo="#sn" as="#Defendant">S. N.</party> iz Rožaja zbog krivičnog djela ugrožavanje opasnim
+					orudjem pri tuči i svadji iz <ref id="krivicni_zakonik_cg_kriv_cl_154" href="krivicni_zakonik_cg/krivicni_clan/154/">čl. 154. Krivičnog Zakonika</ref>, nakon održanog glavnog i javnog pretresa u
+					prisustvu Zamjenika Osnovnog Državnog Tužioca <ref href="#selmanovic">Armina Selmanovića</ref> iz Rožaja, i orkivljenih, dana
+					<date date="2013-09-19">19.9.2013.</date>g. donio je i javno objavio
+
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Okrivljeni:
+				</p>
+				<p>
+					1.<party id="p2" refersTo="#rk" as="#Defendant">K. R.</party> JMBG . od oca H. i majke Š. rodj. L., rodjen ..godine , rodjen u selu Kalače, Opština Rožaje, gdje i živi,
+					državljanin Crne Gore, maternji jezik mu je Crnogorski, oženjen, nezapošljen, otac troje djece od kojih je
+					jedno maloljetno, završio SSS, siromašnog imovnog stanja, neosudjivan.
+
+				</p>
+				<p>
+					2.<party id="p2_1" refersTo="#sn" as="#Defendant">N. S.</party> JMBG . od oca M. i majke R. rodjene M. rodjen .godine, u selu Seošnica, Opština Rožaje gdje i živi,
+					državljanin Crne Gore, maternji jezik mu je Bosanski a razumije Crnogorski jezik, nezapopšljen, oženjen,
+					otac petoro maloljetne djece, završio SSS, siromašnog imovnog stanja , neosudjivan
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIV SU</p>
+				<p>
+					1.<party id="p2" refersTo="#rk" as="#Defendant">K. R.</party> dana <date date="2013-08-03">03.08.2013.</date>godine, oko <time time="07:00:00">7,oo</time> h, na magistralnom putu u naselju „Baza“ , Opština Rožaje, pri
+					svadji sa <party id="p2_1" refersTo="#sn" as="#Defendant">S. N.</party>, mašio se britve – noža na rasklapanje , crnih korica, sječiva dužine oko 15 cm, - sredstva da
+					tijelo teško povrijedi ili zdravlje teško naruši, na način što je oštećenom govorio da mu vrati novac koji mu
+					duguje , psovao mu majku i prijetio mu, a zatim otvorio britvu i krenuo prema njemu.
+					-čime je izjavio <ref id="krivicni_zakonik_cg_kriv_cl_154" href="krivicni_zakonik_cg/krivicni_clan/154/">krivično djelo ugrožavanje opasnim orudjem pri tuči i svadji iz čl.154. Krivično zakonika</ref>.
+				</p>
+				<p>
+					1.<party id="p2_1" refersTo="#sn" as="#Defendant">S. N.</party> , dana <date date="2013-08-03">03.08.2013.</date>godine, oko <time time="07:00:00">7,oo</time> h, na magistralnom putu u naelju Baza, Opština Rožaje, pri
+					svadji sa <party id="p2" refersTo="#rk" as="#Defendant">R. K.</party>, kojom prilikom ga je R. psovao i prijetio mu, mašio se drvene letve dužine 1m, i debljine 2
+					cm-sretstva podobnog da tijelo teško povrijedi ili zdravlje teško naruši, na način što je sa zemljanog
+					proširenja uzeo drvenu letvu i uputio se u pravcu opštećenog.
+					-čime je izvršio <ref id="krivicni_zakonik_cg_kriv_cl_154" href="krivicni_zakonik_cg/krivicni_clan/154/">krivično djelo ugrožavanje opasnim orudjem pri tuči i svadji iz čl.154. Krivičnog zakonika</ref>.
+				</p>
+				<p>
+					Pa im sud na osnovu pomenutog zakonskog propisa, primjenom <ref id="krivicni_zakonik_cg_kriv_cl_4" href="krivicni_zakonik_cg/krivicni_clan/4">čl.4</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_13" href="krivicni_zakonik_cg/krivicni_clan/13">13</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_13" href="krivicni_zakonik_cg/krivicni_clan/15">15</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">32</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_36" href="krivicni_zakonik_cg/krivicni_clan/36">36</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_52" href="krivicni_zakonik_cg/krivicni_clan/52">52</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_53" href="krivicni_zakonik_cg/krivicni_clan/53">53</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_54" href="krivicni_zakonik_cg/krivicni_clan/54">54</ref> Krivičnog
+					zakonika, <ref id="zkp_kriv_cl_226" href="zkp/krivicni_clan/226">čl.226</ref>,
+					<ref id="zkp_kriv_cl_229" href="zkp/krivicni_clan/229">229</ref> i <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">374</ref> Zakonika o Krivičnom postupku izriče:
+				</p>
+				<p style="text-align: center;">USLOVNU OSUDU</p>
+				<p>
+					Kojom im utvrdjuje kaznu zatvora u trajanju od po 30 ( trideset) dana i istovremeno odredjuje da se ista
+					neće izvršiti ukoliko isti u roku od 1 (jedne) godine od dana pravnosnažnosti presude ne učine novo
+					krivično djelo.
+					Da plate na ime troškova krivičnog postupka- paušala iznos od po 40,00 ( četrdeset) eura, u roku od 15
+					dana po pravnosnažnosti ove presude.
+					Nakon što je presuda donijeta i javno objavljena zamjenik <ref href="#odt">ODT-a</ref> i okrivljeni izjaviše da se odriču prava
+					žalbe, te je presuda pravnosnažna.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

@@ -1,0 +1,7 @@
+#loginForm{
+    margin: auto;
+    width: 30%;
+    border: 3px groove orangered;
+    border-radius: 10px;
+    padding: 10px;
+}

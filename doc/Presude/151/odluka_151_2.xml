@@ -1,0 +1,142 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2014-02-26/18-14-14!main"/>
+					<FRBRuri value="/akn/cg/judgment/2014-02-26/18-14-14"/>
+					<FRBRdate date="2014-02-26"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="18-14-14"/>                    
+					<FRBRname value="K 18/14/14"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2014-02-26/18-14-14/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2014-02-26/18-14-14/cg@"/>
+					<FRBRdate date="2014-02-26"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2014-02-26/18-14-14/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2014-02-26/18-14-14/cg@/!main.akn"/>
+					<FRBRdate date="2014-02-26"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2014-02-26" showAs="Osnovni Sud u Kotoru" number="K 18/14/14"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Kotoru"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Kotoru"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="samardzic" href="/akn/cg/ontology/person/judges/samardzic" showAs="Danijela Samardžić"/>
+				<TLCPerson eId="colan" href="/akn/cg/ontology/person/colan" showAs="Aleksandra Čolan"/>
+				<TLCPerson eId="pd" href="/akn/cg/ontology/person/pd" showAs="P. D."/>
+				<TLCPerson eId="nv" href="/akn/cg/ontology/person/vs" showAs="N. V."/>
+				<TLCPerson eId="mn" href="/akn/cg/ontology/person/sm" showAs="M. N."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">K 18/14/14</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#os">OSNOVNI SUD U KOTORU</ref>, kao prvostepeni krivični sud po sudiji pojedincu <judge id="jud01" refersTo="#samadrzic">Danijeli Samardžić</judge>, uz učešće zapisničara 
+					<ref href="#colan">Aleksandre Čolan</ref>, u krivičnom predmetu protiv <party id="p1" refersTo="#pd" as="#Defendant">P. D.</party>, kojeg branio
+					advokat <lawyer id="law1" refersTo="#vs">V. Š.</lawyer> iz H. N., zbog <ref id="krivicni_zakonik_cg_kriv_cl_151_st_1" href="krivicni_zakonik_cg/krivicni_clan/151/st/1">dva krivična djela teška tjelesna povreda iz
+					čl.151 stav 1. Krivičnog Zakonika</ref>, koji se vodi po optužnom predlogu <ref href="#odt">ODT Kotor</ref> 
+					Kt.br. 830/13 od od <date date="2014-01-28">28.01.2014</date> godine, nakon pravosnažnosti rješenja o usvajanju
+					sporazuma o priznanju krivice, dana <date date="2014-02-26">26.02.2014</date> godine donio je
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Okrivljeni: <party id="p1" refersTo="#pd" as="#Defendant">P.D.</party>JMBG ... , od oca M. i majke D., rodjene V., rodjen ... godine u P.,  stalno nastanjen u T.,
+					S. bb, državljanin Crne Gore, električar, neoženjen, bez djece, sa završenom SSS, srednjeg imovnog stanja,
+					osudjivan, protiv kojeg se vodi postupak za drugo krivično djelo
+
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">Kriv je</p>
+				<p>
+					Što je:
+					Dana  <date date="2013-12-28">28.12.2013.</date> godine, oko <time time="03:30:00">03,30</time>h ispred benzinske stanice "M." u T., teško tjelesno povrijedio oštećenog <party id="p2" refersTo="#nv" as="#Plaintiff1">N. V.</party>
+					iz T.i oštećenog <party id="p3" refersTo="#mn" as="#Plaintiff2">M.N.</party> iz K., na način što je poslije kraće prepirke što je imao sa oštećenima ispred navedene
+					benzinske stanice prvo stisnutom pesnicom u predjelu glave udario oštećenog <party id="p3" refersTo="#mn" as="#Plaintiff2">M.N.</party>, od kojeg udarca je
+					isti pao na asfalt i udario potiljkom u asfaltnu podlogu i ostao nepomično da leži, pa kada mu je prišao
+					oštećeni <party id="p2" refersTo="#nv" as="#Plaintiff1">N. V.</party> kako bi mu pomogao i izvadio jezik iz usta, dok je ležao u nesvjesnom stanju, iskoristio
+					situaciju i prišao oštećenom <party id="p2" refersTo="#nv" as="#Plaintiff1">N. V.</party> i istoga udario nogom u predjelu lica, dok je ovaj bio u pognutom
+					položaju pružajući pomoć <party id="p3" refersTo="#mn" as="#Plaintiff2">M.N.</party> od kojeg udarca je <party id="p2" refersTo="#nv" as="#Plaintiff1">N. V.</party> pao na asfaltnu podlogu i udario potiljkom u istu i
+					ostao da leži bez svijesti, da bi se poslije kraćeg vremena <party id="p3" refersTo="#mn" as="#Plaintiff2">M.N.</party> uspio podići sa asfalta, te mu je opet prišao
+					okrivljeni <party id="p1" refersTo="#pd" as="#Defendant">P. D.</party> i udario ga nogom u predjelu glave, od kojeg udarca je <party id="p3" refersTo="#mn" as="#Plaintiff2">M.N.</party> pao ponovo na asfalt i ostao da
+					leži, da bi potom ustao, pa kada je to okrivljeni vidio ponovo mu prišao i udario ga stisnutom pesnicom u
+					predjelu glave od kojeg udarca je oštećeni <party id="p3" refersTo="#mn" as="#Plaintiff2">M.N.</party> ponovo pao i ostao da leži pored oštećenog <party id="p2" refersTo="#nv" as="#Plaintiff1">N. V.</party>, da bi
+					potom okrivljeni <party id="p1" refersTo="#pd" as="#Defendant">P.D.</party> napustio lice mjesta ostavivši ih tako da leže, kojom prilikom je <party id="p3" refersTo="#mn" as="#Plaintiff2">M.N.</party> zadobio teške
+					tjelesne povrede u vidu potresa mozga, nagnječine (krvnog podliva sa oguljotinom) kože sa otokom u
+					desnom sljepoočno-tjemenom predjelu, nagnječenja lijeve polovini donjevililčnog predjela sa otokom u
+					lijevoj polovini donjeviličnog predjela, nagnječenja vratnog dijela kičmenog stuba sa istegnućem vratnog
+					dijela kičmenog stuba i nagnječenja desne šake, a <party id="p2" refersTo="#nv" as="#Plaintiff1">N. V.</party> teške tjelesne povrede u vidu potresa mozga,
+					preloma lijevog kondilarnog nastavka donjevilične kosti sa dislokacijom - sa pomjeranjem prelomljenih
+					koštanih okrajaka, nagnječenja u lijevom jagodičnom predjelu, nagnječenja sa otokom u lijevom
+					sljepoočno-tjemeno-potiljačnom predjelu, nagnječenja lijeve polovine grudnog koša, nagnječenja
+					vratnog dijela kičmenog stuba sa istegnućem vratnog dijela kičmenog stuba, pri čemu je bio uračunljiv i
+					svjestan svog djela i njegove zabranjenosti, a čije izvršenje je htio,
+					
+					Čime je izvršio <ref id="krivicni_zakonik_cg_kriv_cl_151_st_1" href="krivicni_zakonik_cg/krivicni_clan/151/st/1">dva krivična djela 
+					teška tjelesna povreda iz čl.151.st.1. Krivičnog zakonika </ref>
+					Pa mu sud na osnovu naprijed navedene krivičnopravne odredbe i čl.
+					<ref id="krivicni_zakonik_cg_kriv_cl_2" href="krivicni_zakonik_cg/krivicni_clan/2">2</ref>,
+					<ref id="krivicni_zakonik_cg_kriv_cl_4" href="krivicni_zakonik_cg/krivicni_clan/4">4</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_5" href="krivicni_zakonik_cg/krivicni_clan/5">5</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_8" href="krivicni_zakonik_cg/krivicni_clan/8">8</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_13" href="krivicni_zakonik_cg/krivicni_clan/13">13</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_15" href="krivicni_zakonik_cg/krivicni_clan/15">15</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_32" href="krivicni_zakonik_cg/krivicni_clan/32">32</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_36" href="krivicni_zakonik_cg/krivicni_clan/36">36</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_42" href="krivicni_zakonik_cg/krivicni_clan/42">42</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_45" href="krivicni_zakonik_cg/krivicni_clan/45">45</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_46" href="krivicni_zakonik_cg/krivicni_clan/46">46</ref>
+					<ref id="krivicni_zakonik_cg_kriv_cl_51" href="krivicni_zakonik_cg/krivicni_clan/51">51</ref> Krivičnog
+					Zakonika i <ref id="zkp_kriv_cl_226" href="zkp/krivicni_clan/226">čl. 226</ref>, <ref id="zkp_kriv_cl_229" href="zkp/krivicni_clan/229">229</ref> <ref id="zkp_kriv_cl_368" href="zkp/krivicni_clan/368">368</ref> 
+					i <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">374</ref> ZKP - a,
+				</p>
+				<p style="text-align: center;">U t v r d j u j e</p>
+				<p>
+					1.Za <ref id="krivicni_zakonik_cg_kriv_cl_151_st_1" href="krivicni_zakonik_cg/krivicni_clan/151/st/1">krivično djelo teška tjelesna povreda iz čl. 151 st.1 Krivičnog zakonika</ref> kaznu zatvora u trajanju od 4
+					(četiri) mjeseca,
+				</p>
+				<p>
+					2.Za <ref id="krivicni_zakonik_cg_kriv_cl_151_st_1" href="krivicni_zakonik_cg/krivicni_clan/151/st/1">krivično djelo teška tjelesna povreda iz čl. 151 st.1 Krivičnog zakonika</ref> kaznu zatvora u trajanju od 4
+					(četiri) mjeseca,
+				</p>
+				<p>
+					Pa ga sud shodno članu <ref id="krivicni_zakonik_cg_kriv_cl_48" href="krivicni_zakonik_cg/krivicni_clan/48">48.</ref> Krivičnog zakonika
+
+				</p>
+				<p style="text-align: center;">O S U Đ U J E</p>
+				<p>
+					Na jedinstvenu kaznu zatvora u trajanju od 7 (sedam) mjeseci koju će izdržati nakon pravosnažnosti
+					presude, a u koju kaznu se ima uračunati vrijeme koje je okrivljeni provo u pritvoru po rješenju ovog suda
+					<ref id="pres_k_br_33/14" href="/presude/2014-01-30/K-br-33-14">Kv. 33/14</ref> od <date date="2014-01-30">30.01.2014.</date> godine, a koji pritvor traje od <date date="2014-02-06">06.02.2014.</date> godine i dalje.
+				</p>
+				<p>
+					Obavezuje se okrivljeni da na ime troškova postupka uplati iznos od 49,50 eura na žiro račun Vrhovnog
+					državnog tužilaštva 832-1187-31 i na ime sudskog paušala iznosu od 55,00 eura u korist Budžeta Crne Gore
+					na žiro račun 832-16-52 u roku od 15 dana od dana pravosnažnosti presude.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

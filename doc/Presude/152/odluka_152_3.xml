@@ -1,0 +1,129 @@
+<!--spanska kragna -->
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2019-07-18/168-19!main"/>
+					<FRBRuri value="/akn/cg/judgment/2019-07-18/168-19"/>
+					<FRBRdate date="2019-07-18"/>
+					<FRBRauthor href="#os" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="168-19"/>                    
+					<FRBRname value="K 168/19"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2019-07-18/168-19/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2019-07-18/168-19/cg@"/>
+					<FRBRdate date="2019-07-18"/>
+					<FRBRauthor href="#os" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2019-07-18/168-19/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2019-07-18/168-19/cg@/!main.akn"/>
+					<FRBRdate date="2019-07-18"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="os" date="2019-07-18" showAs="Osnovni Sud u Beranama" number="K 168/19"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="os" href="/akn/cg/ontology/organization/os" showAs="Osnovni Sud u Beranama"/>
+				<TLCOrganization eId="odt" href="/akn/cg/ontology/organization/odt" showAs="Osnovno državno tužilaštvo u Beranama"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="vb" href="/akn/cg/ontology/person/judges/vb" showAs="V.B."/>
+				<TLCPerson eId="dr" href="/akn/cg/ontology/person/dr" showAs="D.R."/>
+				<TLCPerson eId="sv" href="/akn/cg/ontology/person/sv" showAs="S.V."/>
+				<TLCPerson eId="kjc" href="/akn/cg/ontology/person/kjc" showAs="K.J.Č."/>
+				<TLCPerson eId="as" href="/akn/cg/ontology/person/as" showAs="A.S."/>
+				<TLCPerson eId="rtf" href="/akn/cg/ontology/person/rtf" showAs="R.t F."/>
+				<TLCPerson eId="mz" href="/akn/cg/ontology/person/mz" showAs="M.Z."/>
+			</references>
+		</meta>
+		<header>
+			<p class="caseNumber">Posl. br. K. 168/19/19</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					<ref href="#os">OSNOVNI SUD U K.</ref>, kao nadležni prvostepeni krivični sud, po sudiji <judge id="jud01" refersTo="#vb">mr V.B.</judge> uz učešće  zapisničara 
+					<ref href="#dr"> D.R.</ref>, u krivičnom predmetu protiv okrivljenog <party id="p1" refersTo="#sv" as="#Defendant">S. V.</party> zbog 
+					<ref id="krivicni_zakonik_cg_kriv_cl_152_st_2" href="krivicni_zakonik_cg/krivicni_clan/152/st/2">krivičnog djela lakše tjelesne povrede iz
+					čl.152.st.2. u vezi st.1. KZCG</ref>, koja se vodi po optužnom predlogu <ref href="#odt">ODT-a u K.</ref> 
+					<ref id="pres_kt_br_276/19" href="/presude/2019-06-20/Kt-br-276-19">Kt. broj 276/19</ref> od <date date="2019-06-20">20.06.2019.</date>g., nakon
+					glavnog i javnog pretresa održanog dana <date date="2019-07-18">18.07.2019.</date>g. u prisustvu DT-a <ref href="#kjc">K.J.Č.</ref>, okrivljenog <party id="p1" refersTo="#sv" as="#Defendant">S. V.</party> i njegovog 
+					branica po službenoj dužnosti advokata <lawyer id="law1" refersTo="#as">A.S.</lawyer> i tumača za albanski jezik <ref href="#rtf">R.t F.</ref>, , donio je i istog dana javno
+					objavio slijedeću
+				</p>
+				<p style="text-align: left;">P R E S U D U</p>
+			<introduction>
+			<background>
+				<p>
+					Okrivljeni <party id="p1" refersTo="#sv" as="#Defendant">S. V.</party>, od oca M. i majke D.,rođen <date date="1992-10-26">26.10.1992.</date>g. u T., stalno nastanjen u S., ul. H.M bb,državljanin
+					R.A.,radnik,neoženjen,bez djece, sa završenih pet razreda OŠ, srednjeg imovnog stanja, neosuđivan, protiv
+					koga se ne vodi krivični postupak za drugo krivično djelo, u pritvoru po rješenju sudije za istragu ovog
+					suda <ref id="pres_kt_br_81/19" href="/presude/2019-06-19/Kt-br-81-19">Kri.81/19</ref> od <date date="2019-06-19">19.06.2019</date> g.produžen rješenjem ovog suda <ref id="pres_kt_br_146/19" href="/presude/2019-06-20/Kt-br-146-19">Kv.br.146/19</ref> od <date date="2019-06-27">27.06.2019 g., i to od
+					<date date="2019-06-17">17.06.2019</date> g. od <time time="22:00:00">22,00</time> časova do <date date="2019-07-18">18.07.2019</date> g. do <time time="10:45:00">10,45</time> časova
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: left;">K r i v je</p>
+				<p>
+				Što je:
+				</p>
+				<p>
+					Dana <date date="2019-06-17">17.06.2019</date>g.,oko <time time="18:30:00">18:30</time> časova,u K.,u kući u R. gdje su zajedno smješteni okrivljeni i oštećeni sa
+					ostalim radnicima, sredstvom podobnim da tijelo teško povrijedi ili zdravlje teško naruši, lako tjelesno
+					povredio oštećenog <party id="p2" refersTo="#mz" as="#Plaintiff">M.Z.</party>, na način što je nakon kraće rasprave oko gedanja TV-a, prišao oštećenom <party id="p2" refersTo="#mz" as="#Plaintiff">M.</party>
+					kojem je zadao nekoliko udaraca u predjelu glave a potom uzeo kuhinjski nož, kojim je zamahivao u
+					njegovom pravcu i vrhom noža, dužine sječiva od oko 30 cm, istog ubo u predjelu desne potkoljenice,
+					kojom prilikom mu je nanio laku tjelesnu povredu u vidu ubodine u predjelu desne potkoljenice, pri čemu
+					je bio uračunljiv, svjestan svoga djela i njjegove zabranjenosti, a čije izvršenje je htio
+				</p>
+				<p>
+					- čime je izvršio <ref id="krivicni_zakonik_cg_kriv_cl_152_st_2" href="krivicni_zakonik_cg/krivicni_clan/152/st/2">krivično djelo laka tjelesna povreda iz
+					čl.152.st.2. u vezi st.1. KZCG</ref>.
+				</p>
+				<p>
+					- Pa ga sud na osnovu naprijed navedene krivično- pravne odredbe,te odredbi člana
+						<ref id="krivicni_zakonik_cg_kriv_cl_5" href="krivicni_zakonik_cg/krivicni_clan/5">5</ref>,
+						<ref id="krivicni_zakonik_cg_kriv_cl_13" href="krivicni_zakonik_cg/krivicni_clan/13">13</ref>,
+						<ref id="krivicni_zakonik_cg_kriv_cl_15" href="krivicni_zakonik_cg/krivicni_clan/15">15</ref>,
+						<ref id="krivicni_zakonik_cg_kriv_cl_33" href="krivicni_zakonik_cg/krivicni_clan/33">33</ref>,
+						<ref id="krivicni_zakonik_cg_kriv_cl_36" href="krivicni_zakonik_cg/krivicni_clan/36">36</ref>,
+						<ref id="krivicni_zakonik_cg_kriv_cl_42" href="krivicni_zakonik_cg/krivicni_clan/42">42</ref> i
+						<ref id="krivicni_zakonik_cg_kriv_cl_51" href="krivicni_zakonik_cg/krivicni_clan/51">51</ref> 
+						KZCG i člana <ref id="zkp_kriv_cl_226" href="zkp/krivicni_clan/226">226</ref>,<ref id="zkp_kriv_cl_229" href="zkp/krivicni_clan/229">229</ref>,
+						<ref id="zkp_kriv_cl_239" href="zkp/krivicni_clan/239">239</ref>,<ref id="zkp_kriv_cl_368" href="zkp/krivicni_clan/368">368</ref> i čl. <ref id="zkp_kriv_cl_374" href="zkp/krivicni_clan/374">čl.374.</ref> ZKP-a
+				</p>
+				
+				<p style="text-align: left;">O S U Đ U J E</p>
+				<p>
+					Na kaznu zatvora u trajanju od 5 (pet) mjeseci, koju će izdržati po pravosnažnosti presude, a u koju kaznu
+					će mu se uračunati vrijeme provedeno u pritvoru po rješenju sudije za istragu ovog suda <ref id="pres_kt_br_81/19" href="/presude/2019-06-19/Kt-br-81-19">Kri.81/19</ref> od
+					<date date="2019-06-19">19.06.2019</date> g., a koji pritvor je produžen rješenjem ovog suda <ref id="pres_kt_br_146/19" href="/presude/2019-06-20/Kt-br-146-19">Kv.br.146/19</ref> od <date date="2019-06-27">27.06.2019</date> g., i koji pritvor
+					mu je trajao od <date date="2019-06-17">17.06.2019</date> g. od <time time="22:00:00">22,00</time> časova do <date date="2019-07-18">18.07.2019</date> g. do <time time="10:45:00">10,45</time> časova, a najduže dok ne istekne
+					vrijeme trajanja kazne izrečene u presudi.
+				</p>
+				<p>
+					Dužan je okrivljeni na ime troškova krivičnog postupka uplatiti iznos od 50,00 eura te na ime sudskog
+					paušala iznos od 50,00 eura, sve u korist budžeta CG, na žiro račun broj 832-16-52 u roku od tri mjeseca od
+					dana pravosnažnosti presude i dokaz o uplati dostaviti ovom sudu s pozivom na broj K. 168/19/19.
+
+				</p>
+				<p>
+					Oštećeni <party id="p2" refersTo="#mz" as="#Plaintiff">M.Z.</party> se sa imovinsko pravnim zahtjevom upućuje na parnicu
+				</p>
+
+				
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>

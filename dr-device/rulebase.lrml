@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lrml:LegalRuleML xmlns:lrml="http://docs.oasis-open.org/legalruleml/ns/v1.0/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legalruleml/ns/v1.0/ xsd-compact/lrml-compact.xsd" xmlns:ruleml="http://ruleml.org/spec">
+	<lrml:Statements>
+
+		<!-- Clan zakona br. 145 -->
+		<lrml:PrescriptiveStatement key="ps1">
+			<ruleml:Rule key=":rule1" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:ubistvo_na_mah"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_145_ubistvo_na_mah</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<lrml:PrescriptiveStatement key="ps2">
+			<ruleml:Rule key=":rule2" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:ubistvo_na_mah"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>zk_145_ubistvo_na_mah</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<!-- Clan zakona br. 153 -->
+
+		<lrml:PrescriptiveStatement key="ps3">
+			<ruleml:Rule key=":rule3" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:neko_lisen_zivota_ili_nanesena_teska_telesna_povreda"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_153_ucestvovanje_u_tuci</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<lrml:PrescriptiveStatement key="ps4">
+			<ruleml:Rule key=":rule4" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:neko_lisen_zivota_ili_nanesena_teska_telesna_povreda"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>zk_153_ucestvovanje_u_tuci</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<!-- Clan zakona br. 154 -->
+
+		<lrml:PrescriptiveStatement key="ps5">
+			<ruleml:Rule key=":rule5" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:pri_svadji_se_masi_oruzja_podobnog_da_tijelo_tesko_povredi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_154_ugrozavanjem_opasnim_orudjem_pri_tuci_i_svadji</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<lrml:PrescriptiveStatement key="ps6">
+			<ruleml:Rule key=":rule6" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:pri_svadji_se_masi_oruzja_podobnog_da_tijelo_tesko_povredi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>zk_154_ugrozavanjem_opasnim_orudjem_pri_tuci_i_svadji</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<!-- Clan zakona br. 152 -->
+
+		<lrml:PrescriptiveStatement key="ps7">
+			<ruleml:Rule key=":rule7" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:lako_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_152_laka_tjelesna_povreda</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<lrml:PrescriptiveStatement key="ps8">
+			<ruleml:Rule key=":rule8" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:lako_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>zk_152_laka_tjelesna_povreda</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps9">
+			<ruleml:Rule key=":rule9" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:oruzjem_orudjem_lako_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_152_laka_tjelesna_povreda_sa_oruzjem_orudjem</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<lrml:PrescriptiveStatement key="ps10">
+			<ruleml:Rule key=":rule10" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:oruzjem_orudjem_lako_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>zk_152_laka_tjelesna_povreda_sa_oruzjem_orudjem</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		
+		<lrml:PrescriptiveStatement key="ps11">
+			<ruleml:Rule key=":rule11" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:oruzjem_orudjem_lako_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:ucinilac_bio_izazvan_nepristojnim_ili_grubim_ponasanjem_ostecenog"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_152_opomena_laka_tjelesna_povreda_sa_oruzjem_orudjem</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps12">
+			<ruleml:Rule key=":rule12" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:lako_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:gonjenje_se_preduzima_po_privatnoj_tuzbi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_152_laka_tjelesna_povreda_gonjenje_po_privatnoj_tuzbi</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<!-- Clan zakona br. 151 -->
+
+		<!-- (1) - 151 -->
+		<lrml:PrescriptiveStatement key="ps13">
+			<ruleml:Rule key=":rule13" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_151_teska_tjelesna_povreda</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<!-- Negation (1) - 151 -->
+		<lrml:PrescriptiveStatement key="ps14">
+			<ruleml:Rule key=":rule14" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>zk_151_teska_tjelesna_povreda</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<!-- (2) - 151 -->
+		<lrml:PrescriptiveStatement key="ps15">
+			<ruleml:Rule key=":rule15" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povredi_ili_mu_zdravlje_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_ili_unisten_ili_ostecen_trajno_deo_tela_naneta_trajna_nesposonost"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_151_teska_tjelesna_povreda_naneta_teska_doveden_zivot_u_opasnost_ili_naneta_trajna_nesposobnost</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<!-- Negation (2) - 151 -->
+		<lrml:PrescriptiveStatement key="ps16">
+			<ruleml:Rule key=":rule16" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povredi_ili_mu_zdravlje_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_ili_unisten_ili_ostecen_trajno_deo_tela_naneta_trajna_nesposonost"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>zk_151_teska_tjelesna_povreda_naneta_teska_doveden_zivot_u_opasnost_ili_naneta_trajna_nesposobnost</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<!-- (3) - 151 -->
+		<lrml:PrescriptiveStatement key="ps17">
+			<ruleml:Rule key=":rule17" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povredi_ili_mu_zdravlje_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_ili_unisten_ili_ostecen_trajno_deo_tela_naneta_trajna_nesposonost"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:teska_telesna_povreda_i_nastupila_smrt"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_151_teska_tjelesna_povreda_i_nastupila_smrt</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<!-- (4) - 151 -->
+		<lrml:PrescriptiveStatement key="ps18">
+			<ruleml:Rule key=":rule18" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povredi_ili_mu_zdravlje_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_ili_unisten_ili_ostecen_trajno_deo_tela_naneta_trajna_nesposonost"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:teska_telesna_povreda_ili_zdravlje_narusi_iz_nehata"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_151_teska_telesna_povreda_ili_zdravlje_narusi_iz_nehata</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<!-- (5.1) - 151 -->
+		<lrml:PrescriptiveStatement key="ps19">
+			<ruleml:Rule key=":rule19" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:ucini_na_mah_doveden_u_razdrazenost_bez_svoje_krivice"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_151_tesko_telesno_povrijedi_ili_mu_zdravlje_narusi_ucinjeno_na_mah_doveden_u_razdrazenost_bez_svoje_krivice</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<!-- (5.2) - 151 -->
+		<lrml:PrescriptiveStatement key="ps20">
+			<ruleml:Rule key=":rule20" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povredi_ili_mu_zdravlje_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_ili_unisten_ili_ostecen_trajno_deo_tela_naneta_trajna_nesposonost"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:ucini_na_mah_doveden_u_razdrazenost_bez_svoje_krivice"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_151_teska_telesna_povreda_ili_zdravlje_tesko_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_na_mah_doveden_u_razdrazenost_bez_svoje_krivice</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<!-- (5.3) - 151 -->
+		<lrml:PrescriptiveStatement key="ps21">
+			<ruleml:Rule key=":rule21" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povrijedi_ili_mu_zdravlje_narusi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:tesko_telesno_povredi_ili_mu_zdravlje_narusi_tako_da_mu_je_doveden_zivot_u_opasnost_ili_unisten_ili_ostecen_trajno_deo_tela_naneta_trajna_nesposonost"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:teska_telesna_povreda_i_nastupila_smrt"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+						<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:ucini_na_mah_doveden_u_razdrazenost_bez_svoje_krivice"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_151_teska_telesna_povreda_i_nastupila_smrt_doveden_u_razdrazenost_bez_svoje_krivice</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<!-- 151a Sakacenje zenskih genitalija -->
+		<lrml:PrescriptiveStatement key="ps22">
+			<ruleml:Rule key=":rule22" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:sakacenje_zenskih_genitalija"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_151a_sakacenje_zenskih_genitalija</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<!-- 151a Sakacenje zenskih genitalija -->
+		<lrml:PrescriptiveStatement key="ps23">
+			<ruleml:Rule key=":rule23" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:prinudna_sterilizacija"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>zk_151b_prinudna_sterilizacija</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+
+
+		<!-- Kazne -->
+
+		<lrml:PenaltyStatement key="pen1">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":min_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>1</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen2">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>8</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen3">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="min_months_in_imprisonment"/>
+							<ruleml:Var>Months</ruleml:Var>
+							<ruleml:Ind>3</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen4">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="min_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>3</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen5">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="novcana_kazna"/>
+							<ruleml:Var>Money</ruleml:Var>
+							<ruleml:Ind>0000</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen6">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="months_in_imprisonment"/>
+							<ruleml:Var>Months</ruleml:Var>
+							<ruleml:Ind>6</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen7">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="novcana_kazna"/>
+							<ruleml:Var>Money</ruleml:Var>
+							<ruleml:Ind>0000</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen8">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>1</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen9">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>3</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen10">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="izrecena_opomena"/>
+							<ruleml:Var>Izrecena opomena</ruleml:Var>
+							<ruleml:Ind>true</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen11">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="gonjenje_po_privatnoj_tuzbi"/>
+							<ruleml:Var>gonjenje_po_privatnoj_tuzbi</ruleml:Var>
+							<ruleml:Ind>true</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen12">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="min_months_in_imprisonment"/>
+							<ruleml:Var>Months</ruleml:Var>
+							<ruleml:Ind>6</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen13">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>5</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen14">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="min_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>1</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen15">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>8</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen16">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="min_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>2</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen17">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>12</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen18">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>3</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen19">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>3</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen20">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="min_months_in_imprisonment"/>
+							<ruleml:Var>Months</ruleml:Var>
+							<ruleml:Ind>3</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen21">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>4</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen22">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="min_months_in_imprisonment"/>
+							<ruleml:Var>Months</ruleml:Var>
+							<ruleml:Ind>6</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen23">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>5</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen24">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="min_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>1</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen25">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>8</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen26">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="min_months_in_imprisonment"/>
+							<ruleml:Var>Months</ruleml:Var>
+							<ruleml:Ind>3</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen27">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri="max_years_in_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>5</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		
+
+
+		<!-- Povezivnje konkretnog clana zakona i kazni -->
+		
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen1"/>
+				<lrml:toPrescriptiveStatement keyref="#ps1"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen2"/>
+				<lrml:toPrescriptiveStatement keyref="#ps1"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen3"/>
+				<lrml:toPrescriptiveStatement keyref="#ps3"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen4"/>
+				<lrml:toPrescriptiveStatement keyref="#ps3"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen5"/>
+				<lrml:toPrescriptiveStatement keyref="#ps5"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen6"/>
+				<lrml:toPrescriptiveStatement keyref="#ps5"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen7"/>
+				<lrml:toPrescriptiveStatement keyref="#ps7"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen8"/>
+				<lrml:toPrescriptiveStatement keyref="#ps7"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen9"/>
+				<lrml:toPrescriptiveStatement keyref="#ps9"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen10"/>
+				<lrml:toPrescriptiveStatement keyref="#ps11"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen11"/>
+				<lrml:toPrescriptiveStatement keyref="#ps12"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen12"/>
+				<lrml:toPrescriptiveStatement keyref="#ps13"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen13"/>
+				<lrml:toPrescriptiveStatement keyref="#ps13"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen14"/>
+				<lrml:toPrescriptiveStatement keyref="#ps15"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen15"/>
+				<lrml:toPrescriptiveStatement keyref="#ps15"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen16"/>
+				<lrml:toPrescriptiveStatement keyref="#ps17"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen17"/>
+				<lrml:toPrescriptiveStatement keyref="#ps17"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen18"/>
+				<lrml:toPrescriptiveStatement keyref="#ps18"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen19"/>
+				<lrml:toPrescriptiveStatement keyref="#ps19"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen20"/>
+				<lrml:toPrescriptiveStatement keyref="#ps20"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen21"/>
+				<lrml:toPrescriptiveStatement keyref="#ps20"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen22"/>
+				<lrml:toPrescriptiveStatement keyref="#ps21"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen23"/>
+				<lrml:toPrescriptiveStatement keyref="#ps21"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen24"/>
+				<lrml:toPrescriptiveStatement keyref="#ps22"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen25"/>
+				<lrml:toPrescriptiveStatement keyref="#ps22"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen26"/>
+				<lrml:toPrescriptiveStatement keyref="#ps23"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen27"/>
+				<lrml:toPrescriptiveStatement keyref="#ps23"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+
+
+		<!-- Jacina pravila -->
+
+		<!-- <lrml:OverrideStatement>
+			<lrml:Override under="#ps15" over="#ps17"/>
+		</lrml:OverrideStatement>
+		<lrml:OverrideStatement>
+			<lrml:Override under="#ps13" over="#ps15"/>
+		</lrml:OverrideStatement> -->
+	</lrml:Statements>
+</lrml:LegalRuleML>

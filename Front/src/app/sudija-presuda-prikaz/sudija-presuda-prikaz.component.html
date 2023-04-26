@@ -1,0 +1,48 @@
+<div class="panel-header panel-header-sm">
+</div>
+<html>
+<body>
+<!-- header -->
+<nav class="navbar">
+  <!--
+    <div class="navbar-brand">
+      <button class="navbar-item navbar-item-right">gfdgfdg</button>
+    </div>
+
+  -->
+  <!-- <a class="mat-button" (click)="logout()">Logout</a> -->
+</nav>
+<div class="main-content">
+  <div id="raw">
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Tekst presude
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <pre [innerHTML]="sanitizedTekstPresude"></pre>
+    </mat-expansion-panel>
+  </div>
+  <div id="akoma">
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Akoma Ntoso reprezentacija
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <pre>{{akoma}}</pre>
+    </mat-expansion-panel>
+  </div>
+  <div id="regex">
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Ekstraktovani podaci
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <pre>{{attributes}}</pre>
+    </mat-expansion-panel>
+  </div>
+</div>
+</body>
+</html>
